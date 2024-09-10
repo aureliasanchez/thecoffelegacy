@@ -10,7 +10,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
             <div className="auto-container">
                 <h2>{breadcrumbTitle}</h2>
                 <ul className="page-breadcrumb">
-                    <li><Link href="/">home</Link></li>
+                    <li><Link href="/">Home</Link></li>
                     <li>{breadcrumbTitle}</li>
                 </ul>
             </div>

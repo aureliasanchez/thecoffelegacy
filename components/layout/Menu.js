@@ -8,14 +8,14 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation">
-                <li className="dropdown">
-                    <Link href="/">Home </Link>
-                    <ul>
+                <li>
+                    <Link href="/">Hola </Link>
+                    {/* <ul>
                         <li><Link href="/">Home One</Link></li>
                         <li><Link href="index-2">Home Two</Link></li>
                         <li><Link href="index-3">Home Three</Link></li>
                         <li><Link href="index-4">Home Four</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="dropdown">
                     <Link href="#">About</Link>
@@ -28,7 +28,7 @@ export default function Menu() {
                 <li className="dropdown">
                     <Link href="#">Menu</Link>
                     <ul>
-                        <li><Link href="menu">Menu</Link></li>
+                        <li><Link href="menu">Menu Principal</Link></li>
                         <li><Link href="milkshake">Milk Shake</Link></li>
                         <li><Link href="frappe">Frappe</Link></li>
                         <li><Link href="boba-tea">Boba Tea</Link></li>
@@ -37,20 +37,19 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="#">Gallery</Link>
-                    <ul>
+                    <Link href="gallery">Gallery</Link>
+                    {/* <ul>
                         <li><Link href="gallery">Gallery</Link></li>
                         <li><Link href="gallery-2">Gallery 02</Link></li>                        
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown">
-                    <Link href="#">Blog</Link>
-                    <ul>
+                <li><Link href="blog-classic">Blog</Link>
+                    {/* <ul>
                         <li><Link href="blog-classic">Blog Classic</Link></li>
                         <li><Link href="blog-details2">Blog Single 02</Link></li>
                         <li><Link href="blog-details">Blog Details</Link></li>
                         <li><Link href="/error">Not Found</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <Link href="contact">Contact</Link>
