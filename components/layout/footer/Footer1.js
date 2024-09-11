@@ -13,7 +13,7 @@ export default function Footer1() {
             	<div className="row clearfix">
                 	
                     {/* Big Column */}
-                    <div className="big-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="big-column col-lg-8 col-md-12 col-sm-12">
                         <div className="row clearfix">
 							
 							{/*Footer Column*/}
@@ -46,7 +46,7 @@ export default function Footer1() {
 					</div>
 					
 					{/* Big Column */}
-                    <div className="big-column col-lg-6 col-md-12 col-sm-12">
+                    <div className="big-column col-lg-4 col-md-12 col-sm-12">
                         <div className="row clearfix">
 							
 							{/*Footer Column*/}
@@ -63,7 +63,7 @@ export default function Footer1() {
 							</div>
 							
 							{/* Footer Column */}
-							<div className="footer-column col-lg-6 col-md-6 col-sm-12">
+							{/* <div className="footer-column col-lg-6 col-md-6 col-sm-12">
 								<div className="footer-widget newsletter-widget">
 									<h6>Subscribe</h6>
 									<div className="newsletter-form">
@@ -75,7 +75,7 @@ export default function Footer1() {
 										</form>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							
 						</div>
 					</div>

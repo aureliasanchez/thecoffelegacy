@@ -8,20 +8,14 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation">
-                <li>
-                    <Link href="/">Hola </Link>
-                    {/* <ul>
-                        <li><Link href="/">Home One</Link></li>
-                        <li><Link href="index-2">Home Two</Link></li>
-                        <li><Link href="index-3">Home Three</Link></li>
-                        <li><Link href="index-4">Home Four</Link></li>
-                    </ul> */}
+            <li>
+                    <Link href="/">Home</Link> 
                 </li>
                 <li className="dropdown">
                     <Link href="#">About</Link>
                     <ul>
                         <li><Link href="about">About</Link></li>
-                        <li><Link href="team">Team</Link></li>
+                        {/* <li><Link href="team">Team</Link></li> */}
                         <li><Link href="restaurant">Restaurant</Link></li>
                     </ul>
                 </li>

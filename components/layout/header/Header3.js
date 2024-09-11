@@ -21,7 +21,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu, handleS
                     
                     <div className="pull-right">
                         
-                        {/* Search Box */}
+                        {/* Search Box
                         <div className="search-box">
                             <form method="post">
                                 <div className="form-group">
@@ -29,7 +29,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu, handleS
                                     <button type="submit"><span className="icon flaticon-search"></span></button>
                                 </div>
                             </form>
-                        </div>
+                        </div> */}
                         
                     </div>
                     

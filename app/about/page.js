@@ -174,18 +174,18 @@ export default function About() {
             </div>
         </section>
         {/* End Gallery Section Two */}
-        
-        {/* Staff Section */}
+       
+        {/* Staff Section
         <section className="staff-section">
             <div className="auto-container">
-                {/* Sec Title */}
+                Sec Title
                 <div className="sec-title centered">
                     <div className="title">Our most valuable asset</div>
                     <h2>Friendly Staff</h2>
                 </div>
                 <div className="row clearfix">
                 
-                    {/* Staff Block */}
+                    Staff Block
                     <div className="staff-block col-lg-4 col-md-6 col-sm-12">
                         <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div className="image">
@@ -205,7 +205,7 @@ export default function About() {
                         </div>
                     </div>
                     
-                    {/* Staff Block */}
+                    Staff Block
                     <div className="staff-block col-lg-4 col-md-6 col-sm-12">
                         <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div className="image">
@@ -225,7 +225,7 @@ export default function About() {
                         </div>
                     </div>
                     
-                    {/* Staff Block */}
+                    Staff Block
                     <div className="staff-block col-lg-4 col-md-6 col-sm-12">
                         <div className="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div className="image">
@@ -247,7 +247,7 @@ export default function About() {
                     
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* End Staff Section */}
         
         {/* Testimonial Section */}

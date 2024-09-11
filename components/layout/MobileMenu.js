@@ -35,7 +35,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation">
-                                <li><Link href="/">Hola</Link>
+                                <li><Link href="/">Home</Link>
                                     {/* <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                         <li><Link href="/">Home One</Link></li>
                                         <li><Link href="index-2">Home Two</Link></li>
@@ -44,14 +44,15 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul> */}
                                     <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">About</Link>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/about">About</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
                                         <li><Link href="about">About</Link></li>
-                                        <li><Link href="team">Team</Link></li>
+                                        {/* <li><Link href="team">Team</Link></li> */}
+                                        <li><Link href="restaurant">Restaurant</Link></li>
                                     </ul>
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/#">Menu</Link>
+                                <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/menu">Menu</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>                                 
                                         <li><Link href="menu">Menu</Link></li>
                                         <li><Link href="milkshake">Milk Shake</Link></li>
