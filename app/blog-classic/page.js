@@ -39,7 +39,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Blog List With Right Sidebar">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog List With Right Sidebar">
             {/* Sidebar Page Container */}
             <div className="sidebar-page-container">
                 <div className="section-text">yummy</div>
@@ -213,7 +213,7 @@ export default function Home() {
                             <aside className="sidebar sticky-top">
                                 
                                 {/* Search */}
-                                <div className="sidebar-widget search-box">
+                                {/* <div className="sidebar-widget search-box">
                                     <div className="sidebar-title">
                                         <h6>Search Course</h6>
                                     </div>
@@ -223,7 +223,7 @@ export default function Home() {
                                             <button type="submit"><span className="icon fa fa-search"></span></button>
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                                 
                                 {/* About Widget */}
                                 <div className="sidebar-widget about-widget">

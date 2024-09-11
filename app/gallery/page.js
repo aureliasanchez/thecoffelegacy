@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Gallery">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Gallery">
         
         {/* Gallery Page Section */}
         <section className="gallery-page-section">

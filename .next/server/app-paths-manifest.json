@@ -1,8 +1,8 @@
 {
-  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/contact/page": "app/contact/page.js",
-  "/restaurant/page": "app/restaurant/page.js",
-  "/menu/page": "app/menu/page.js",
-  "/about/page": "app/about/page.js"
+  "/milkshake/page": "app/milkshake/page.js",
+  "/frappe/page": "app/frappe/page.js",
+  "/boba-tea/page": "app/boba-tea/page.js",
+  "/slushy/page": "app/slushy/page.js",
+  "/gallery/page": "app/gallery/page.js"
 }

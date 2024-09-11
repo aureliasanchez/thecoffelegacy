@@ -8,7 +8,7 @@ export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Boba Tea">      
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Boba Tea">      
         {/* Milkshake Section */}
         <section className="milkshake-section">
             <div className="icon-layer-one" style={{ backgroundImage: 'url(assets/images/icons/icon-1.png)' }} ></div>

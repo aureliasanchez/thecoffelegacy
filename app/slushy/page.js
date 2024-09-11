@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Slushy">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Slushy">
                 <div>
                     {/* Milkshake Section */}
                     <section className="milkshake-section">

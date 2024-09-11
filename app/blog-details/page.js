@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Broad Bean And Goats’ Cheese Bruschetta">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Broad Bean And Goats’ Cheese Bruschetta">
                 {/* Sidebar Page Container */}
                 <div className="sidebar-page-container">
                     <div className="section-text">yummy</div>
