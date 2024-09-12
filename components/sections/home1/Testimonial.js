@@ -72,8 +72,8 @@ export default function Testimonial() {
                 <div className="auto-container">
                     {/* Sec Title */}
                     <div className="sec-title centered">
-                        <div className="title">Testimonial</div>
-                        <h2>What People Say</h2>
+                        <div className="title">Testimonios</div>
+                        <h2>Lo Que Dicen Nuestros Clientes</h2>
                         <div className="separate"></div>
                     </div>
                     <div className="inner-container">
@@ -86,8 +86,8 @@ export default function Testimonial() {
                                     <div className="author-image">
                                         <img src="assets/images/resource/author-1.jpg" alt="" />
                                     </div>
-                                    <div className="text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br/> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco.”</div>
-                                    <div className="designation">Meredith Grant <span>- Host Mother</span></div>
+                                    <div className="text">“Cada vez que visito <b>The Coffee Legacy</b>, siento que estoy disfrutando algo más que café. El cuidado que ponen en cada detalle, desde la selección de los granos hasta la atmósfera del lugar, es incomparable. Se ha convertido en mi lugar favorito para relajarme y disfrutar de una bebida excepcional.”</div>
+                                    <div className="designation">Ana Gómez <span>- Cliente Frecuente</span></div>
                                 </div>
                             </div>
                             </SwiperSlide>

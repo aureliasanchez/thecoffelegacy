@@ -13,8 +13,8 @@ export default function Recipe() {
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
-                    <div className="title">Best for You</div>
-                    <h2>Detox Smoothie Recipe</h2>
+                    <div className="title">Ingredientes frescos y responsables en cada taza</div>
+                    <h2>Sabores con Origen</h2>
                     <div className="separate"></div>
                 </div>
                 <div className="inner-container">
@@ -29,8 +29,8 @@ export default function Recipe() {
                                 <div className="recipe-block">
                                     <div className="inner-box">
                                         <div className="icon"><img src="assets/images/resource/recipe-1.png" alt=""/></div>
-                                        <h6><Link href="menu">Cucumber</Link></h6>
-                                        <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
+                                        <h6><Link href="menu">Granos de Café Orgánico</Link></h6>
+                                        <div className="text">Nuestros baristas los muelen al momento para cada preparación, resaltando los matices y aromas únicos de cada variedad de origen.</div>
                                     </div>
                                 </div>
                                 
@@ -38,8 +38,8 @@ export default function Recipe() {
                                 <div className="recipe-block">
                                     <div className="inner-box">
                                         <div className="icon"><img src="assets/images/resource/recipe-2.png" alt=""/></div>
-                                        <h6><Link href="menu">Apple</Link></h6>
-                                        <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
+                                        <h6><Link href="menu">Leche de Granja Fresca</Link></h6>
+                                        <div className="text">Utilizamos leche fresca de granja para crear una espuma suave y cremosa que complementa el sabor robusto de nuestro café.</div>
                                     </div>
                                 </div>
                                 
@@ -63,8 +63,8 @@ export default function Recipe() {
                                 <div className="recipe-block style-two">
                                     <div className="inner-box">
                                         <div className="icon"><img src="assets/images/resource/recipe-3.png" alt=""/></div>
-                                        <h6><Link href="menu">Lemon</Link></h6>
-                                        <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
+                                        <h6><Link href="menu">Extracto de Vainilla Natural</Link></h6>
+                                        <div className="text">Lo incorporamos en nuestras recetas de lattes y cappuccinos, aportando una capa aromática y deliciosa.</div>
                                     </div>
                                 </div>
                                 
@@ -72,8 +72,8 @@ export default function Recipe() {
                                 <div className="recipe-block style-two">
                                     <div className="inner-box">
                                         <div className="icon"><img src="assets/images/resource/recipe-4.png" alt=""/></div>
-                                        <h6><Link href="menu">Fresh Water</Link></h6>
-                                        <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae</div>
+                                        <h6><Link href="menu">Cacao de Comercio Justo</Link></h6>
+                                        <div className="text">Añadimos cacao oscuro a nuestras bebidas de chocolate y mochas, logrando un balance perfecto entre el café y el chocolate.</div>
                                     </div>
                                 </div>
                             </div>

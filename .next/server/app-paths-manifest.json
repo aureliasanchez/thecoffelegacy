@@ -1,8 +1,8 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/milkshake/page": "app/milkshake/page.js",
-  "/frappe/page": "app/frappe/page.js",
-  "/boba-tea/page": "app/boba-tea/page.js",
-  "/slushy/page": "app/slushy/page.js",
-  "/gallery/page": "app/gallery/page.js"
+  "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
+  "/restaurant/page": "app/restaurant/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/blog-classic/page": "app/blog-classic/page.js",
+  "/contact/page": "app/contact/page.js"
 }

@@ -40,7 +40,7 @@ export default function About() {
    
     return (
         <>
-        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Sobre Nosotros">
         {/* History Section */}
         <section className="history-section-two">
             <div className="auto-container">
@@ -63,14 +63,14 @@ export default function About() {
                         <div className="inner-column">
                             {/* Sec Title */}
                             <div className="sec-title">
-                                <div className="title">Our Vision and History </div>
-                                <h2>Founded in 1970 by <span className="theme_color">Chairman Jay Martin</span></h2>
-                                <div className="text">The Juice Plus+ Company has grown from a small, direct-sales company into a highly successful, privately held health and wellness company operatinLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                                <div className="title">Nuestra Historia</div>
+                                <h2>Pasión Por El <span className="theme_color">Café</span></h2>
+                                <div className="text">Desde 2010, en The Coffee Legacy, nos impulsa la búsqueda de la perfección en cada taza y el compromiso con la autenticidad, conectando directamente con los productores de café de origen único. Nuestra pasión se refleja en cada detalle, desde la selección de los granos hasta la manera en que servimos nuestras bebidas. </div>
                             </div>
                             <ul className="list-style-two">
-                                <li>Cras at mi luctus, tincidunt urna eu, posuere enim</li>
-                                <li>Vivamus elementum lorem vitae quam tincidunt</li>
-                                <li>Suspendisse accumsan eros eu erat condimentum</li>
+                                <li><b>Calidad Superior:</b> Solo usamos granos cuidadosamente seleccionados</li>
+                                <li><b>Conexión Directa:</b> Trabajamos directamente con productores de origen.</li>
+                                <li><b>Experiencia Única:</b> Cada bebida está hecha para disfrutar al máximo.</li>
                             </ul>
                         </div>
                     </div>
@@ -91,8 +91,8 @@ export default function About() {
                                 <div className="image-box">
                                     <img src="assets/images/gallery/19.jpg" alt="" />
                                     <div className="overlay-box">
-                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                        <h6><Link href="gallery">Compromiso con el Origen</Link></h6>
+                                        <div className="title">Trabajamos directamente con productores de café de origen único para garantizar calidad y sostenibilidad.</div>
                                     </div>
                                 </div>
                             </div>
@@ -106,8 +106,8 @@ export default function About() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/20.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">Relación con Productores</Link></h6>
+                                                <div className="title">Fomentamos relaciones justas y directas con los caficultores, garantizando un comercio ético.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -118,8 +118,8 @@ export default function About() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/23.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">Proceso de Tostado</Link></h6>
+                                                <div className="title">Cada grano es tostado con precisión para resaltar sus mejores notas.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -136,8 +136,8 @@ export default function About() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/21.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">Pasión por la Perfección</Link></h6>
+                                                <div className="title">Nuestra búsqueda de la taza perfecta es constante en todo lo que hacemos.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -149,8 +149,8 @@ export default function About() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/22.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">Autenticidad y Tradición</Link></h6>
+                                                <div className="title">Respetamos las tradiciones del café mientras innovamos en cada creación.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -162,8 +162,8 @@ export default function About() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/24.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">Cuidado en Cada Detalle</Link></h6>
+                                                <div className="title">Desde la selección de los granos hasta la preparación, nos aseguramos de que cada paso sea perfecto..</div>
                                             </div>
                                         </div>
                                     </div>
@@ -259,8 +259,8 @@ export default function About() {
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
-                    <div className="title">Testimonial</div>
-                    <h2>What People Say</h2>
+                    <div className="title">Testimonios</div>
+                    <h2>Voces de Nuestros Clientes</h2>
                     <div className="separate"></div>
                 </div>
                 <div className="inner-container">
@@ -273,8 +273,8 @@ export default function About() {
                                 <div className="author-image">
                                     <img src="assets/images/resource/author-1.jpg" alt="" />
                                 </div>
-                                <div className="text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br/> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco.”</div>
-                                <div className="designation">Meredith Grant <span>- Host Mother</span></div>
+                                <div className="text">“El compromiso de The Coffee Legacy con la calidad es evidente desde el primer sorbo. <br/>Es más que un café, es una experiencia que se nota en cada detalle, desde el origen del grano hasta el ambiente acogedor.”</div>
+                                <div className="designation">Carlos Rivera <span>- Cliente Frecuente</span></div>
                             </div>
                         </div>
                         </SwiperSlide>

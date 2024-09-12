@@ -1,4 +1,5 @@
 
+import Link from "next/link"
 export default function Deal() {
     return (
         <>
@@ -11,20 +12,18 @@ export default function Deal() {
                         <div className="box-inner">
                             {/* Sec Title */}
                             <div className="sec-title light centered">
-                                <div className="title">30% Off For juice</div>
-                                <h2>Big Deals of the Week</h2>
-                                <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae <br/> intellegam. Ansed dictas accumsan. </div>
+                                <div className="title">Más sabor, menos precio</div>
+                                <h2>Promos de Café</h2>
+                                <div className="text">Disfruta nuestras promociones semanales en café y bebidas. Vive la experiencia <b></b>The Coffee Legacy a precios irresistibles. <br/> intellegam. Ansed dictas accumsan. </div>
                             </div>
                             {/* Email Form */}
                             <div className="email-form">
-                                <div className="email-title">To Get New Of Our Deals</div>
-                                <form method="post">
-                                    <div className="form-group">
-                                        <input type="email" name="email" placeholder="type your email" />
-                                        <button type="submit" className="submit-btn"><span className="icon flaticon-send"></span></button>
-                                    </div>
-                                </form>
+                                <div className="email-title">El mejor café, ahora con descuento.</div>
                             </div>
+                            {/* Button Box */}
+                    <div className="button-box text-center">
+                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Ver Menú</Link>
+                    </div>
                         </div>
                     </div>
                 </div>

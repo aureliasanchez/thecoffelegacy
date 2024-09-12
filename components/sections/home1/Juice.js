@@ -28,12 +28,12 @@ export default function Juice() {
                         <div className="inner-column">
                             {/* Sec Title */}
                             <div className="sec-title">
-                                <div className="title">Drink for Health</div>
-                                <h2>Fresh Fruit <span className="theme_color">Juices</span></h2>
+                                <div className="title">Café con Historia</div>
+                                <h2>Tradición<span className="theme_color"> Cafetera</span></h2>
                                 <div className="separate"></div>
-                                <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. Nam sint atqui voluptatibus an, pro ne malis semper perpetua.</div>
+                                <div className="text">Desde 2010, nos hemos dedicado a ofrecer café de especialidad con un enfoque en la autenticidad y la conexión directa con los productores. Cada bebida cuenta una historia, y cada grano tiene un origen que respetamos y celebramos. Únete a nosotros en este viaje lleno de sabor y tradición.</div>
                             </div>
-                            <Link href="menu" className="theme-btn btn-style-two clearfix"><span className="icon"></span>Buy Now</Link>
+                            <Link href="menu" className="theme-btn btn-style-two clearfix"><span className="icon"></span>Compra Ahora</Link>
                         </div>
                     </div>
                     

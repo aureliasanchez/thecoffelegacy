@@ -10,10 +10,10 @@ export default function Blog() {
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
-                    <div className="title">News & Recipe</div>
-                    <h2>Our Fruitsome Blog</h2>
+                    <div className="title">Productos Destacados</div>
+                    <h2>Nuestros Favoritos</h2>
                     <div className="separate"></div>
-                    <div className="text">Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, <br/> vel scelerisque nisl consectetur et.</div>
+                    <div className="text">Descubre los productos más destacados de <b>The Coffee Legacy.</b><br/> Cada uno ha sido cuidadosamente elaborado para ofrecerte una experiencia única, desde el primer sorbo hasta el último.</div>
                 </div>
                 <div className="row clearfix">
                 
@@ -32,12 +32,12 @@ export default function Blog() {
                                 </div>
                             </div>
                             <div className="lower-content">
-                                <div className="category">smoothie</div>
-                                <h6><Link href="news-detail">Broad bean and goats’ cheese bruschetta</Link></h6>
+                                <div className="category">Destacado</div>
+                                <h6><Link href="news-detail">Cappuccino Clásico</Link></h6>
                                 <ul className="post-info">
-                                    <li>May 21, 2021</li>
-                                    <li>2 Comments</li>
-                                    <li><Link href="news-detail">Share</Link></li>
+                                    {/* <li>May 21, 2021</li>
+                                    <li>2 Comments</li> */}
+                                    <li><Link href="menu">Ver Más</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,12 +58,12 @@ export default function Blog() {
                                 </div>
                             </div>
                             <div className="lower-content">
-                                <div className="category">smoothie</div>
-                                <h6><Link href="news-detail">Broad bean and goats’ cheese bruschetta</Link></h6>
+                                <div className="category">Destacado</div>
+                                <h6><Link href="news-detail">Cold Brew Refrescante</Link></h6>
                                 <ul className="post-info">
-                                    <li>May 21, 2021</li>
-                                    <li>2 Comments</li>
-                                    <li><Link href="news-detail">Share</Link></li>
+                                    {/* <li>May 21, 2021</li>
+                                    <li>2 Comments</li> */}
+                                    <li><Link href="news-detail">Ver Más</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -84,12 +84,12 @@ export default function Blog() {
                                 </div>
                             </div>
                             <div className="lower-content">
-                                <div className="category">smoothie</div>
-                                <h6><Link href="news-detail">Broad bean and goats’ cheese bruschetta</Link></h6>
+                                <div className="category">Destacado</div>
+                                <h6><Link href="news-detail">Mocha con Chocolate Oscuro</Link></h6>
                                 <ul className="post-info">
-                                    <li>May 21, 2021</li>
-                                    <li>2 Comments</li>
-                                    <li><Link href="news-detail">Share</Link></li>
+                                    {/* <li>May 21, 2021</li>
+                                    <li>2 Comments</li> */}
+                                    <li><Link href="news-detail">Ver Más</Link></li>
                                 </ul>
                             </div>
                         </div>

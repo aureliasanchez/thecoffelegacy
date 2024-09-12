@@ -23,7 +23,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={5} footerStyle={1} breadcrumbTitle="Our Restaurant">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Sucursales">
                 <div>
                     {/* Restaurant Section */}
                     <section className="restaurant-section">
@@ -36,12 +36,13 @@ export default function Home() {
                                 </div>
                                 <div className="opening-box" style={{ backgroundImage: 'url(assets/images/resource/restaurant-1.jpg)' }} >
                                     <div className="box-inner">
-                                        <h3>Opening <span>Hourse</span></h3>
+                                        <h3>Nuestros<span>Horarios</span></h3>
                                         <ul className="timing-list">
-                                            <li>Mon - Thu<span>9AM - 9PM</span></li>
-                                            <li>Fri- Sat<span>10AM - 10PM</span></li>
+                                            <span></span><li>Lunes a Viernes<span>8AM - 8PM</span></li>
                                         </ul>
-                                        <div className="closed">SUNDAY CLOSED</div>
+                                        <div className="timing-list">
+                                        <span></span><li>Fines de Semana:<span>9AM - 10PM</span></li>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,8 +61,8 @@ export default function Home() {
                                         <div className="image-box">
                                             <img src="assets/images/gallery/19.jpg" alt="" />
                                             <div className="overlay-box">
-                                                <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                <h6><Link href="gallery">El Encanto de Huasca</Link></h6>
+                                                <div className="title">Nuestra sucursal en Huasca de Ocampo te espera con el mejor café en un ambiente lleno de historia y naturaleza. ¡Disfruta de un café después de explorar el pueblo mágico!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -75,8 +76,8 @@ export default function Home() {
                                                 <div className="image-box">
                                                     <img src="assets/images/gallery/20.jpg" alt="" />
                                                     <div className="overlay-box">
-                                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                        <h6><Link href="gallery">Café en Pachuca Centro</Link></h6>
+                                                        <div className="title">Disfruta de un café de especialidad en nuestra sucursal en el centro de Pachuca. Perfecta para una pausa en tu día.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -87,8 +88,8 @@ export default function Home() {
                                                 <div className="image-box">
                                                     <img src="assets/images/gallery/23.jpg" alt="" />
                                                     <div className="overlay-box">
-                                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                        <h6><Link href="gallery">Descanso en la Carretera</Link></h6>
+                                                        <div className="title">Nuestra sucursal en la carretera México-Pachuca es el lugar ideal para un café rápido antes de seguir tu camino.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -105,8 +106,8 @@ export default function Home() {
                                                 <div className="image-box">
                                                     <img src="assets/images/gallery/21.jpg" alt="" />
                                                     <div className="overlay-box">
-                                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                        <h6><Link href="gallery">Zona Sur, Café en Movimiento</Link></h6>
+                                                        <div className="title">Nuestra sucursal en Pachuca Zona Sur ofrece el ambiente perfecto para relajarte mientras disfrutas de una deliciosa bebida.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,8 +119,8 @@ export default function Home() {
                                                 <div className="image-box">
                                                     <img src="assets/images/gallery/22.jpg" alt="" />
                                                     <div className="overlay-box">
-                                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                        <h6><Link href="gallery">Plaza Bella Pachuca</Link></h6>
+                                                        <div className="title">UEn Plaza Bella, el mejor café te espera para acompañar tus compras y darte un momento de pausa y disfrute.</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -131,8 +132,8 @@ export default function Home() {
                                                 <div className="image-box">
                                                     <img src="assets/images/gallery/24.jpg" alt="" />
                                                     <div className="overlay-box">
-                                                        <h6><Link href="gallery">Cornish cod fillet</Link></h6>
-                                                        <div className="title">Us percipit urbanitas referrentur ea.</div>
+                                                        <h6><Link href="gallery">Mineral del Monte, un Café con Tradición</Link></h6>
+                                                        <div className="title">En el corazón de Mineral del Monte, nuestra sucursal ofrece un espacio cálido y acogedor para disfrutar del café y la vista de este histórico pueblo minero..</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -150,8 +151,8 @@ export default function Home() {
                         <div className="auto-container">
                             {/* Sec Title */}
                             <div className="sec-title centered">
-                                <div className="title">funfact</div>
-                                <h2>Faq</h2>
+                                <div className="title">El mejor café, cerca de ti</div>
+                                <h2>Encuentra tu Sucursal</h2>
                                 <div className="separate"></div>
                             </div>
                             <div className="row clearfix">
@@ -163,11 +164,11 @@ export default function Home() {
                                               
                                         {/*Block*/}
                                         <li className={isActive.key == 1 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(1)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> What is the our resturent</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> Huasca de Ocampo</div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Calle Ignacio Allende #310, Zaragoza #2, El Calvario, 43500 Huasca de Ocampo, Hgo.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -175,11 +176,11 @@ export default function Home() {
 
                                         {/*Block*/}
                                         <li className={isActive.key == 2 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(2)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>02.</span> intellegam. Ansed dictas accumsan</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>02.</span> Pachuca Centro</div>
                                             <div className="acc-content current">
                                                 <div className="content">
                                                     <div className="text" onClick={() => handleToggle(2)}>
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Centro, 42000 Pachuca de Soto, Hgo. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -187,11 +188,11 @@ export default function Home() {
                                         
                                         {/*Block*/}
                                         <li className={isActive.key == 3 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(3)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>03.</span> pro ne malis semper perpetua.</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>03.</span> Mineral del Monte</div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Av. Hidalgo 87-L2, Centro, 42130 Mineral del Monte, Hgo. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,11 +208,11 @@ export default function Home() {
                                                     
                                         {/*Block*/}
                                         <li className={isActive.key == 4 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(4)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>01.</span> What is the our resturent</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>04.</span> Carretera México-Pachuca</div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Km 74 + 760 Local 2, dentro de la gasolinera a un lado del restaurante Los Cochinitos. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -219,11 +220,11 @@ export default function Home() {
 
                                         {/*Block*/}
                                         <li className={isActive.key == 5 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(5)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>02.</span> intellegam. Ansed dictas accumsan</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>05.</span> Pachuca Zona Sur</div>
                                             <div className="acc-content current">
                                                 <div className="content">
                                                     <div className="text">
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Blvd. Felipe Ángeles 110, Pachuca de Soto, Hgo. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -231,11 +232,11 @@ export default function Home() {
                                         
                                         {/*Block*/}
                                         <li className={isActive.key == 6 ? "accrodion block active-block" : "accrodion block"} onClick={() => handleToggle(6)}>
-                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>03.</span> pro ne malis semper perpetua.</div>
+                                            <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus flaticon-plus-symbol"></span> <span className="icon icon-minus flaticon-substract"></span></div><span>06.</span> Plaza Bella Pachuca</div>
                                             <div className="acc-content">
                                                 <div className="content">
                                                     <div className="text">
-                                                        <p>Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. </p>
+                                                        <p>Blvd. Luis Donaldo Colosio 800, Pachuca de Soto, Hgo.</p>
                                                     </div>
                                                 </div>
                                             </div>

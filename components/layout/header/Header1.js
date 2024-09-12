@@ -46,7 +46,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
 		<div className="sticky-header">
             <div className="auto-container clearfix">
                 <div className="logo pull-left">
-                    <Link href="/" title=""><img src="assets/images/logo-small.png" alt="" title="" /></Link>
+                    <Link href="/" title=""><img src="assets/images/logo small.png" alt="" title="" /></Link>
                 </div>
                 <div className="pull-right">
                     <nav className="main-menu">
