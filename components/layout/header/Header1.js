@@ -29,15 +29,15 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
 					</nav>
 					
 					{/* Main Menu End*/}
-					<div className="outer-box clearfix">
+					{/* <div className="outer-box clearfix">
 						
-						{/* Search Btn
+						Search Btn
 						<div className="search-box-btn search-box-outer"><span className="icon fa fa-search" onClick={handlePopup}></span></div>
-						 */}
-						{/* Nav Btn */}
-						{/* <div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div>
-							 */}
-					</div>
+						
+						Nav Btn 
+						<div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div>
+							
+					</div> */}
 				</div>
 				
             </div>
@@ -54,12 +54,12 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu, handleS
                     </nav>
 					
 
-					<div className="outer-box clearfix">
+					{/* <div className="outer-box clearfix">
 
 						<div className="search-box-btn search-box-outer"><span className="icon fa fa-search" onClick={handlePopup}></span></div>
 						<div className="nav-btn navSidebar-button"><span className="icon flaticon-menu-2" onClick={handleSidebar}></span></div>
 						
-					</div>
+					</div> */}
 					
                 </div>
             </div>

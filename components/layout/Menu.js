@@ -31,7 +31,7 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="gallery">Gallería</Link>
+                    <Link href="gallery">Galería</Link>
                     {/* <ul>
                         <li><Link href="gallery">Gallery</Link></li>
                         <li><Link href="gallery-2">Gallery 02</Link></li>                        
