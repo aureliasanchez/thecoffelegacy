@@ -25,8 +25,8 @@ export default function Menu() {
                         <li><Link href="menu">Menú Principal</Link></li>
                         <li><Link href="milkshake">Bebidas</Link></li>
                         <li><Link href="frappe">Desayunos</Link></li>
-                        <li><Link href="boba-tea">*Hamburguesas*Pizzas*Crepas*</Link></li>
-                        <li><Link href="slushy">*Cervezas*Vinos*Cocktes*</Link></li>
+                        <li><Link href="boba-tea">Delicias a la Carta</Link></li>
+                        <li><Link href="slushy">Vinos & Más</Link></li>
                         
                     </ul>
                 </li>

@@ -57,8 +57,8 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="menu">Menú Principal</Link></li>
                                         <li><Link href="milkshake">Bebidas</Link></li>
                                         <li><Link href="frappe">Desayunos</Link></li>
-                                        <li><Link href="boba-tea">*Hamburguesas*Pizzas*Crepas*</Link></li>
-                                        <li><Link href="slushy">*Cervezas*Vinos*Cocktes*</Link></li>
+                                        <li><Link href="boba-tea">Delicias a la Carta</Link></li>
+                                        <li><Link href="slushy">Vinos & Más</Link></li>
                                     </ul>
                                     <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                                 </li>

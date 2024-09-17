@@ -8,7 +8,7 @@ export default function Home() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Menu">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Menú">
                
             {/* Menu Page Section */}
             <section className="menu-page-section">

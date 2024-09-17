@@ -305,10 +305,10 @@ export default function Home() {
                                         <h6>Síguenos</h6>
                                     </div>
                                     <ul className="social-list">
-                                        <li><Link href="#"><span className="icon fa fa-facebook"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-twitter"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-dribbble"></span></Link></li>
+                                    <li><Link href="https://www.facebook.com/thecoffeelegacy.hgo/"><span className="icon fa fa-facebook"></span></Link></li>
+                                    <li><Link href="https://www.instagram.com/thecoffeelegacy/"><span className="icon fa fa-instagram"></span></Link></li>
+                                        {/* <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
+                                        <li><Link href="#"><span className="icon fa fa-dribbble"></span></Link></li> */}
                                     </ul>
                                 </div>
                                 
