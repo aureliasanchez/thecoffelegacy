@@ -350,9 +350,9 @@ function Home() {
     };
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-            headerStyle: 5,
+            headerStyle: 1,
             footerStyle: 1,
-            breadcrumbTitle: "Our Restaurant",
+            breadcrumbTitle: "Sucursales",
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
@@ -392,36 +392,39 @@ function Home() {
                                                 children: [
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
                                                         children: [
-                                                            "Opening ",
+                                                            "Nuestros",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                children: "Hourse"
+                                                                children: "Horarios"
                                                             })
                                                         ]
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                                                         className: "timing-list",
                                                         children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
                                                                 children: [
-                                                                    "Mon - Thu",
+                                                                    "Lunes a Viernes",
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        children: "9AM - 9PM"
-                                                                    })
-                                                                ]
-                                                            }),
-                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                                                children: [
-                                                                    "Fri- Sat",
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        children: "10AM - 10PM"
+                                                                        children: "8AM - 8PM"
                                                                     })
                                                                 ]
                                                             })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "closed",
-                                                        children: "SUNDAY CLOSED"
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                        className: "timing-list",
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                                                                children: [
+                                                                    "Fines de Semana:",
+                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                        children: "9AM - 10PM"
+                                                                    })
+                                                                ]
+                                                            })
+                                                        ]
                                                     })
                                                 ]
                                             })
@@ -455,12 +458,12 @@ function Home() {
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                     href: "gallery",
-                                                                    children: "Cornish cod fillet"
+                                                                    children: "El Encanto de Huasca"
                                                                 })
                                                             }),
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "title",
-                                                                children: "Us percipit urbanitas referrentur ea."
+                                                                children: "Nuestra sucursal en Huasca de Ocampo te espera con el mejor caf\xe9 en un ambiente lleno de historia y naturaleza. \xa1Disfruta de un caf\xe9 despu\xe9s de explorar el pueblo m\xe1gico!"
                                                             })
                                                         ]
                                                     })
@@ -490,12 +493,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Caf\xe9 en Pachuca Centro"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "Disfruta de un caf\xe9 de especialidad en nuestra sucursal en el centro de Pachuca. Perfecta para una pausa en tu d\xeda."
                                                                         })
                                                                     ]
                                                                 })
@@ -520,12 +523,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Descanso en la Carretera"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "Nuestra sucursal en la carretera M\xe9xico-Pachuca es el lugar ideal para un caf\xe9 r\xe1pido antes de seguir tu camino."
                                                                         })
                                                                     ]
                                                                 })
@@ -558,12 +561,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Zona Sur, Caf\xe9 en Movimiento"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "Nuestra sucursal en Pachuca Zona Sur ofrece el ambiente perfecto para relajarte mientras disfrutas de una deliciosa bebida."
                                                                         })
                                                                     ]
                                                                 })
@@ -588,12 +591,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Plaza Bella Pachuca"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "UEn Plaza Bella, el mejor caf\xe9 te espera para acompa\xf1ar tus compras y darte un momento de pausa y disfrute."
                                                                         })
                                                                     ]
                                                                 })
@@ -618,12 +621,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Mineral del Monte, un Caf\xe9 con Tradici\xf3n"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "En el coraz\xf3n de Mineral del Monte, nuestra sucursal ofrece un espacio c\xe1lido y acogedor para disfrutar del caf\xe9 y la vista de este hist\xf3rico pueblo minero.."
                                                                         })
                                                                     ]
                                                                 })
@@ -655,10 +658,10 @@ function Home() {
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "title",
-                                                children: "funfact"
+                                                children: "El mejor caf\xe9, cerca de ti"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                                children: "Faq"
+                                                children: "Encuentra tu Sucursal"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "separate"
@@ -695,7 +698,7 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             children: "01."
                                                                         }),
-                                                                        " What is the our resturent"
+                                                                        " Huasca de Ocampo"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -705,7 +708,7 @@ function Home() {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "text",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Calle Ignacio Allende #310, Zaragoza #2, El Calvario, 43500 Huasca de Ocampo, Hgo."
                                                                             })
                                                                         })
                                                                     })
@@ -734,7 +737,7 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             children: "02."
                                                                         }),
-                                                                        " intellegam. Ansed dictas accumsan"
+                                                                        " Pachuca Centro"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -745,7 +748,7 @@ function Home() {
                                                                             className: "text",
                                                                             onClick: ()=>handleToggle(2),
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Centro, 42000 Pachuca de Soto, Hgo. "
                                                                             })
                                                                         })
                                                                     })
@@ -774,7 +777,7 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             children: "03."
                                                                         }),
-                                                                        " pro ne malis semper perpetua."
+                                                                        " Mineral del Monte"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -784,7 +787,7 @@ function Home() {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "text",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Av. Hidalgo 87-L2, Centro, 42130 Mineral del Monte, Hgo. "
                                                                             })
                                                                         })
                                                                     })
@@ -819,9 +822,9 @@ function Home() {
                                                                             ]
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                            children: "01."
+                                                                            children: "04."
                                                                         }),
-                                                                        " What is the our resturent"
+                                                                        " Carretera M\xe9xico-Pachuca"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -831,7 +834,7 @@ function Home() {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "text",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Km 74 + 760 Local 2, dentro de la gasolinera a un lado del restaurante Los Cochinitos. "
                                                                             })
                                                                         })
                                                                     })
@@ -858,9 +861,9 @@ function Home() {
                                                                             ]
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                            children: "02."
+                                                                            children: "05."
                                                                         }),
-                                                                        " intellegam. Ansed dictas accumsan"
+                                                                        " Pachuca Zona Sur"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -870,7 +873,7 @@ function Home() {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "text",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Blvd. Felipe \xc1ngeles 110, Pachuca de Soto, Hgo. "
                                                                             })
                                                                         })
                                                                     })
@@ -897,9 +900,9 @@ function Home() {
                                                                             ]
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                            children: "03."
+                                                                            children: "06."
                                                                         }),
-                                                                        " pro ne malis semper perpetua."
+                                                                        " Plaza Bella Pachuca"
                                                                     ]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -909,7 +912,7 @@ function Home() {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "text",
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. "
+                                                                                children: "Blvd. Luis Donaldo Colosio 800, Pachuca de Soto, Hgo."
                                                                             })
                                                                         })
                                                                     })

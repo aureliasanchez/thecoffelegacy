@@ -331,7 +331,7 @@ function Home() {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP, {
             headerStyle: 1,
             footerStyle: 1,
-            breadcrumbTitle: "Contact",
+            breadcrumbTitle: "Cont\xe1ctanos",
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                     className: "contact-page-section",
@@ -343,14 +343,14 @@ function Home() {
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "title",
-                                        children: "Get in touch"
+                                        children: "Estamos aqu\xed para escucharte"
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
                                         children: [
-                                            "Hi ",
+                                            "\xa1Conecta con ",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                 className: "theme_color",
-                                                children: "Say"
+                                                children: "Nosotros!"
                                             })
                                         ]
                                     }),
@@ -360,11 +360,11 @@ function Home() {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "text",
                                         children: [
-                                            "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas ",
+                                            "En The Coffee Legacy, valoramos cada opini\xf3n y nos encanta saber de ti.",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                            " accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. Nam sint ",
+                                            " Si tienes alguna pregunta, sugerencia o simplemente quieres saludarnos, no dudes en escribirnos.",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                            " atqui voluptatibus an, pro ne malis semper perpetua."
+                                            " Estaremos encantados de responderte lo m\xe1s pronto posible."
                                         ]
                                     })
                                 ]
@@ -377,17 +377,11 @@ function Home() {
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "inner-column",
                                             children: [
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "title-box",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                            children: "Drop us a line"
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "text",
-                                                            children: "Your email address will not be published. Required fields are marked *"
-                                                        })
-                                                    ]
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                                        children: "Formulario de Contacto"
+                                                    })
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "contact-form",
@@ -401,7 +395,7 @@ function Home() {
                                                                     className: "form-group col-lg-12 col-md-12 col-sm-12",
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                                                         name: "message",
-                                                                        placeholder: "Your Comment"
+                                                                        placeholder: "\xbfC\xf3mo podemos ayudarte?"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -409,7 +403,7 @@ function Home() {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                                         type: "text",
                                                                         name: "username",
-                                                                        placeholder: "Your Name"
+                                                                        placeholder: "Escribe tu nombre completo"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -417,7 +411,7 @@ function Home() {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                                                                         type: "email",
                                                                         name: "email",
-                                                                        placeholder: "Your Email"
+                                                                        placeholder: "Introduce tu direcci\xf3n de correo electr\xf3nico"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -429,7 +423,7 @@ function Home() {
                                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                                 className: "icon flaticon-arrow-pointing-to-right"
                                                                             }),
-                                                                            "Send"
+                                                                            "Enviar Mensaje"
                                                                         ]
                                                                     })
                                                                 })
@@ -450,25 +444,32 @@ function Home() {
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                                children: "Berlin"
+                                                                children: "Vis\xedtanos"
                                                             }),
-                                                            "52 Corso Magenta ",
+                                                            "Estamos ubicados en el coraz\xf3n de varios puntos clave de la ciudad.",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            "20123 Milano, Italy ",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                children: "Sucursales:"
+                                                            }),
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            " +123 -45678-900 ",
+                                                            "Huasca de Ocampo:",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            "yourspa@info.com"
+                                                            "Pachuca Centro:",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                                            "Mineral del Monte:",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                                            "Carretera M\xe9xico-Pachuca:",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {})
                                                         ]
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                                                children: "Opening Hours"
+                                                                children: "Nuestros Horarios:"
                                                             }),
-                                                            "Monday – Friday 09:00 – 23:00 ",
+                                                            "Lunes – Viernes 08 AM – 08 PM ",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            " Saturday 09:00 – 22:00"
+                                                            " Fines de Semana 09 AM – 10 PM"
                                                         ]
                                                     })
                                                 ]
@@ -489,7 +490,7 @@ function Home() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "map-outer",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
-                                    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s"
+                                    src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12506.748774592113!2d-98.7326587!3d20.1269024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d109daa07cdc29%3A0xa2d44d59b8a7142!2sThe%20Coffee%20Legacy%20Reloj!5e1!3m2!1sen!2smx!4v1726177272471!5m2!1sen!2smx"
                                 })
                             })
                         })

@@ -294,18 +294,19 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 61053:
+/***/ 47947:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 88104));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2311));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 65438));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11977));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18379));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4217));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 59448));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 16095));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4577));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4217))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4577))
 
 /***/ }),
 
@@ -367,95 +368,87 @@ function Banner() {
                     className: "main-slider-carousel ",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__/* .SwiperSlide */ .o5, {
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "slide",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "icon-layer-one",
-                                        style: {
-                                            backgroundImage: "url(assets/images/main-slider/icon-1.png)"
-                                        }
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "icon-layer-two",
-                                        style: {
-                                            backgroundImage: "url(assets/images/main-slider/icon-2.png)"
-                                        }
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "auto-container",
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "row clearfix",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "content-column col-lg-6 col-md-12 col-sm-12",
-                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                        className: "inner-column",
-                                                        children: [
-                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                    className: "auto-container",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "row clearfix",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "content-column col-lg-6 col-md-12 col-sm-12",
+                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                    className: "inner-column",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                                                            children: [
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                    className: "first-letter",
+                                                                    children: "Caf\xe9"
+                                                                }),
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                    className: "second-letter",
+                                                                    children: "Perfecto"
+                                                                })
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                            className: "text",
+                                                            children: [
+                                                                "En ",
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                    children: "The Coffee Legacy"
+                                                                }),
+                                                                ", cada taza refleja nuestra pasi\xf3n por el caf\xe9 de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia \xfanica."
+                                                            ]
+                                                        }),
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            className: "btns-box",
+                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                                href: "menu",
+                                                                className: "theme-btn btn-style-one clearfix",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "first-letter",
-                                                                        children: "Heathly"
+                                                                        className: "icon"
                                                                     }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        className: "second-letter",
-                                                                        children: "Smoothie"
-                                                                    })
+                                                                    "Compra Ahora"
                                                                 ]
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "text",
-                                                                children: "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "btns-box",
-                                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                                    href: "menu",
-                                                                    className: "theme-btn btn-style-one clearfix",
-                                                                    children: [
-                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                            className: "icon"
-                                                                        }),
-                                                                        "Buy Now"
-                                                                    ]
-                                                                })
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "icons-box",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                    src: "assets/images/main-slider/icons.png",
-                                                                    alt: ""
-                                                                })
                                                             })
-                                                        ]
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: "image-column col-lg-6 col-md-12 col-sm-12",
-                                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                        className: "inner-column",
-                                                        children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "icon-layer-three",
-                                                                style: {
-                                                                    backgroundImage: "url(assets/images/main-slider/icon-3.png)"
-                                                                }
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                className: "image",
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                                    src: "assets/images/main-slider/content-image-1.png",
-                                                                    alt: ""
-                                                                })
+                                                        }),
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            className: "icons-box",
+                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                                src: "assets/images/main-slider/icons.png",
+                                                                alt: ""
                                                             })
-                                                        ]
-                                                    })
+                                                        })
+                                                    ]
                                                 })
-                                            ]
-                                        })
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                className: "image-column col-lg-6 col-md-12 col-sm-12",
+                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                    className: "inner-column",
+                                                    children: [
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            className: "icon-layer-three",
+                                                            style: {
+                                                                backgroundImage: "url(assets/images/main-slider/icon-3.png)"
+                                                            }
+                                                        }),
+                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            className: "image",
+                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                                                src: "assets/images/main-slider/content-image-1.png",
+                                                                alt: ""
+                                                            })
+                                                        })
+                                                    ]
+                                                })
+                                            })
+                                        ]
                                     })
-                                ]
+                                })
                             })
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__/* .SwiperSlide */ .o5, {
@@ -488,17 +481,23 @@ function Banner() {
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         className: "first-letter",
-                                                                        children: "Heathly"
+                                                                        children: "Caf\xe9"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         className: "second-letter",
-                                                                        children: "Smoothie"
+                                                                        children: "Perfecto"
                                                                     })
                                                                 ]
                                                             }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 className: "text",
-                                                                children: "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+                                                                children: [
+                                                                    "En ",
+                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                        children: "The Coffee Legacy"
+                                                                    }),
+                                                                    ", cada taza refleja nuestra pasi\xf3n por el caf\xe9 de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia \xfanica."
+                                                                ]
                                                             }),
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "btns-box",
@@ -509,7 +508,7 @@ function Banner() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             className: "icon"
                                                                         }),
-                                                                        "Buy Now"
+                                                                        "Compra Ahora"
                                                                     ]
                                                                 })
                                                             }),
@@ -580,17 +579,23 @@ function Banner() {
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         className: "first-letter",
-                                                                        children: "Heathly"
+                                                                        children: "Caf\xe9"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                         className: "second-letter",
-                                                                        children: "Smoothie"
+                                                                        children: "Perfecto"
                                                                     })
                                                                 ]
                                                             }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 className: "text",
-                                                                children: "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+                                                                children: [
+                                                                    "En ",
+                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                        children: "The Coffee Legacy"
+                                                                    }),
+                                                                    ", cada taza refleja nuestra pasi\xf3n por el caf\xe9 de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia \xfanica."
+                                                                ]
                                                             }),
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                 className: "btns-box",
@@ -601,7 +606,7 @@ function Banner() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                             className: "icon"
                                                                         }),
-                                                                        "Buy Now"
+                                                                        "Compra Ahora"
                                                                     ]
                                                                 })
                                                             }),
@@ -685,10 +690,10 @@ function Beverage() {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "title",
-                                    children: "Best for You"
+                                    children: "Sabores que Inspiran"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    children: "Our Beverage"
+                                    children: "Sabores \xfanicos"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "separate"
@@ -713,20 +718,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Milkshake"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Espresso Tradicional"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -746,20 +745,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Frappe"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: " Cappuccino Cl\xe1sico"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -779,20 +772,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Boba Drinks"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Cold Brew Refrescante"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -812,20 +799,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Mojito"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Latte con Vainilla Naturalo"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -845,20 +826,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Slushy"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Mocha con Chocolate Oscuro"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -878,20 +853,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "Hot Chocolate"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Americano Intenso"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -911,20 +880,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "smoothie"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "Frappe de Caramelo"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -944,20 +907,14 @@ function Beverage() {
                                                     })
                                                 })
                                             }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "lower-content",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            href: "milkshake",
-                                                            children: "coffee"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: "products",
-                                                        children: "3 products"
+                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                        href: "milkshake",
+                                                        children: "T\xe9 Chai con Especias"
                                                     })
-                                                ]
+                                                })
                                             })
                                         ]
                                     })
@@ -973,7 +930,7 @@ function Beverage() {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                         className: "icon"
                                     }),
-                                    "View All Products"
+                                    "Ver Men\xfa"
                                 ]
                             })
                         })
@@ -1020,10 +977,10 @@ function Blog() {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "title",
-                                    children: "News & Recipe"
+                                    children: "Productos Destacados"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    children: "Our Fruitsome Blog"
+                                    children: "Nuestros Favoritos"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "separate"
@@ -1031,9 +988,12 @@ function Blog() {
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "text",
                                     children: [
-                                        "Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, ",
+                                        "Descubre los productos m\xe1s destacados de ",
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                            children: "The Coffee Legacy."
+                                        }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                        " vel scelerisque nisl consectetur et."
+                                        " Cada uno ha sido cuidadosamente elaborado para ofrecerte una experiencia \xfanica, desde el primer sorbo hasta el \xfaltimo."
                                     ]
                                 })
                             ]
@@ -1077,30 +1037,22 @@ function Blog() {
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "category",
-                                                        children: "smoothie"
+                                                        children: "Destacado"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                             href: "news-detail",
-                                                            children: "Broad bean and goats’ cheese bruschetta"
+                                                            children: "Cappuccino Cl\xe1sico"
                                                         })
                                                     }),
-                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
                                                         className: "post-info",
-                                                        children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "May 21, 2021"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "2 Comments"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                                    href: "news-detail",
-                                                                    children: "Share"
-                                                                })
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                                href: "menu",
+                                                                children: "Ver M\xe1s"
                                                             })
-                                                        ]
+                                                        })
                                                     })
                                                 ]
                                             })
@@ -1143,30 +1095,22 @@ function Blog() {
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "category",
-                                                        children: "smoothie"
+                                                        children: "Destacado"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                             href: "news-detail",
-                                                            children: "Broad bean and goats’ cheese bruschetta"
+                                                            children: "Cold Brew Refrescante"
                                                         })
                                                     }),
-                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
                                                         className: "post-info",
-                                                        children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "May 21, 2021"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "2 Comments"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                                    href: "news-detail",
-                                                                    children: "Share"
-                                                                })
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                                href: "news-detail",
+                                                                children: "Ver M\xe1s"
                                                             })
-                                                        ]
+                                                        })
                                                     })
                                                 ]
                                             })
@@ -1209,30 +1153,22 @@ function Blog() {
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "category",
-                                                        children: "smoothie"
+                                                        children: "Destacado"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                             href: "news-detail",
-                                                            children: "Broad bean and goats’ cheese bruschetta"
+                                                            children: "Mocha con Chocolate Oscuro"
                                                         })
                                                     }),
-                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
                                                         className: "post-info",
-                                                        children: [
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "May 21, 2021"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: "2 Comments"
-                                                            }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                                    href: "news-detail",
-                                                                    children: "Share"
-                                                                })
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                                                href: "news-detail",
+                                                                children: "Ver M\xe1s"
                                                             })
-                                                        ]
+                                                        })
                                                     })
                                                 ]
                                             })
@@ -1287,19 +1223,15 @@ function Fluid() {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "sec-title",
                                         children: [
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                                                children: [
-                                                    "Upcoming Our ",
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                    " Beverage"
-                                                ]
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                                children: "Experiencia Legacy"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "separate"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                 className: "text",
-                                                children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                                children: "En The Coffee Legacy, cada visita es un viaje sensorial. Desde el aroma de los granos reci\xe9n tostados hasta la perfecci\xf3n en cada taza, nos esforzamos por ofrecer una experiencia memorable que conecta a nuestros clientes con el verdadero arte del caf\xe9 de especialidad."
                                             })
                                         ]
                                     }),
@@ -1307,12 +1239,12 @@ function Fluid() {
                                         className: "button-box",
                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                             href: "menu",
-                                            className: "theme-btn btn-style-two clearfix",
+                                            className: "theme-btn btn-style-one clearfix",
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                     className: "icon"
                                                 }),
-                                                "All Product"
+                                                "Descubre M\xe1s"
                                             ]
                                         })
                                     })
@@ -1807,14 +1739,14 @@ function Juice() {
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "title",
-                                                    children: "Drink for Health"
+                                                    children: "Caf\xe9 con Historia"
                                                 }),
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
                                                     children: [
-                                                        "Fresh Fruit ",
+                                                        "Tradici\xf3n",
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                             className: "theme_color",
-                                                            children: "Juices"
+                                                            children: " Cafetera"
                                                         })
                                                     ]
                                                 }),
@@ -1823,7 +1755,7 @@ function Juice() {
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                     className: "text",
-                                                    children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. Nam sint atqui voluptatibus an, pro ne malis semper perpetua."
+                                                    children: "Desde 2010, nos hemos dedicado a ofrecer caf\xe9 de especialidad con un enfoque en la autenticidad y la conexi\xf3n directa con los productores. Cada bebida cuenta una historia, y cada grano tiene un origen que respetamos y celebramos. \xdanete a nosotros en este viaje lleno de sabor y tradici\xf3n."
                                                 })
                                             ]
                                         }),
@@ -1834,7 +1766,7 @@ function Juice() {
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                     className: "icon"
                                                 }),
-                                                "Buy Now"
+                                                "Compra Ahora"
                                             ]
                                         })
                                     ]
@@ -1900,10 +1832,10 @@ function Recipe() {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "title",
-                                    children: "Best for You"
+                                    children: "Ingredientes frescos y responsables en cada taza"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    children: "Detox Smoothie Recipe"
+                                    children: "Sabores con Origen"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "separate"
@@ -1942,12 +1874,12 @@ function Recipe() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                         href: "menu",
-                                                                        children: "Cucumber"
+                                                                        children: "Granos de Caf\xe9 Org\xe1nico"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "text",
-                                                                    children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae"
+                                                                    children: "Nuestros baristas los muelen al momento para cada preparaci\xf3n, resaltando los matices y aromas \xfanicos de cada variedad de origen."
                                                                 })
                                                             ]
                                                         })
@@ -1967,12 +1899,12 @@ function Recipe() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                         href: "menu",
-                                                                        children: "Apple"
+                                                                        children: "Leche de Granja Fresca"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "text",
-                                                                    children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae"
+                                                                    children: "Utilizamos leche fresca de granja para crear una espuma suave y cremosa que complementa el sabor robusto de nuestro caf\xe9."
                                                                 })
                                                             ]
                                                         })
@@ -2013,12 +1945,12 @@ function Recipe() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                         href: "menu",
-                                                                        children: "Lemon"
+                                                                        children: "Extracto de Vainilla Natural"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "text",
-                                                                    children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae"
+                                                                    children: "Lo incorporamos en nuestras recetas de lattes y cappuccinos, aportando una capa arom\xe1tica y deliciosa."
                                                                 })
                                                             ]
                                                         })
@@ -2038,12 +1970,12 @@ function Recipe() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                         href: "menu",
-                                                                        children: "Fresh Water"
+                                                                        children: "Cacao de Comercio Justo"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "text",
-                                                                    children: "Us percipit urbanitas referrentur ea. Mei at numquam molestiae"
+                                                                    children: "A\xf1adimos cacao oscuro a nuestras bebidas de chocolate y mochas, logrando un balance perfecto entre el caf\xe9 y el chocolate."
                                                                 })
                                                             ]
                                                         })
@@ -2164,10 +2096,10 @@ function Testimonial() {
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "title",
-                                    children: "Testimonial"
+                                    children: "Testimonios"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    children: "What People Say"
+                                    children: "Lo Que Dicen Nuestros Clientes"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: "separate"
@@ -2196,19 +2128,19 @@ function Testimonial() {
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "text",
                                                         children: [
-                                                            "“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et ",
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            " dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ",
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                            " ullamco.”"
+                                                            "“Cada vez que visito ",
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                children: "The Coffee Legacy"
+                                                            }),
+                                                            ", siento que estoy disfrutando algo m\xe1s que caf\xe9. El cuidado que ponen en cada detalle, desde la selecci\xf3n de los granos hasta la atm\xf3sfera del lugar, es incomparable. Se ha convertido en mi lugar favorito para relajarme y disfrutar de una bebida excepcional.”"
                                                         ]
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "designation",
                                                         children: [
-                                                            "Meredith Grant ",
+                                                            "Ana G\xf3mez ",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                children: "- Host Mother"
+                                                                children: "- Cliente Frecuente"
                                                             })
                                                         ]
                                                     })
@@ -2397,7 +2329,11 @@ const Beverage_default_ = Beverage_proxy.default;
 
 
 /* harmony default export */ const Beverage = (Beverage_default_);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(25124);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./components/sections/home1/Deal.js
+
 
 function Deal() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
@@ -2434,49 +2370,42 @@ function Deal() {
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                             className: "title",
-                                            children: "30% Off For juice"
+                                            children: "M\xe1s sabor, menos precio"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                            children: "Big Deals of the Week"
+                                            children: "Promos de Caf\xe9"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                             className: "text",
                                             children: [
-                                                "Us percipit urbanitas referrentur ea. Mei at numquam molestiae ",
+                                                "Disfruta nuestras promociones semanales en caf\xe9 y bebidas. Vive la experiencia ",
+                                                /*#__PURE__*/ jsx_runtime_.jsx("b", {}),
+                                                "The Coffee Legacy a precios irresistibles. ",
                                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                                 " intellegam. Ansed dictas accumsan. "
                                             ]
                                         })
                                     ]
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "email-form",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "email-title",
-                                            children: "To Get New Of Our Deals"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("form", {
-                                            method: "post",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                className: "form-group",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                        type: "email",
-                                                        name: "email",
-                                                        placeholder: "type your email"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                        type: "submit",
-                                                        className: "submit-btn",
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                            className: "icon flaticon-send"
-                                                        })
-                                                    })
-                                                ]
-                                            })
-                                        })
-                                    ]
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: "email-title",
+                                        children: "El mejor caf\xe9, ahora con descuento."
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: "button-box text-center",
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                        href: "menu",
+                                        className: "theme-btn btn-style-one clearfix",
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                className: "icon"
+                                            }),
+                                            "Ver Men\xfa"
+                                        ]
+                                    })
                                 })
                             ]
                         })
@@ -2569,6 +2498,28 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ 3097:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+/* __next_internal_client_entry_do_not_use__  cjs */ 
+const { createProxy } = __webpack_require__(61363);
+module.exports = createProxy("C:\\Users\\Administrator\\Desktop\\Thecoffee\\node_modules\\next\\dist\\client\\link.js");
+ //# sourceMappingURL=link.js.map
+
+
+/***/ }),
+
+/***/ 25124:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+module.exports = __webpack_require__(3097);
+
 
 /***/ })
 

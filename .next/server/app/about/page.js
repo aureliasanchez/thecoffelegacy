@@ -361,7 +361,7 @@ function About() {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
             headerStyle: 1,
             footerStyle: 1,
-            breadcrumbTitle: "About Us",
+            breadcrumbTitle: "Sobre Nosotros",
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                     className: "history-section-two",
@@ -402,34 +402,49 @@ function About() {
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "title",
-                                                        children: "Our Vision and History "
+                                                        children: "Nuestra Historia"
                                                     }),
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
                                                         children: [
-                                                            "Founded in 1970 by ",
+                                                            "Pasi\xf3n Por El ",
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                 className: "theme_color",
-                                                                children: "Chairman Jay Martin"
+                                                                children: "Caf\xe9"
                                                             })
                                                         ]
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "text",
-                                                        children: "The Juice Plus+ Company has grown from a small, direct-sales company into a highly successful, privately held health and wellness company operatinLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                                                        children: "Desde 2010, en The Coffee Legacy, nos impulsa la b\xfasqueda de la perfecci\xf3n en cada taza y el compromiso con la autenticidad, conectando directamente con los productores de caf\xe9 de origen \xfanico. Nuestra pasi\xf3n se refleja en cada detalle, desde la selecci\xf3n de los granos hasta la manera en que servimos nuestras bebidas. "
                                                     })
                                                 ]
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                                                 className: "list-style-two",
                                                 children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: "Cras at mi luctus, tincidunt urna eu, posuere enim"
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                children: "Calidad Superior:"
+                                                            }),
+                                                            " Solo usamos granos cuidadosamente seleccionados"
+                                                        ]
                                                     }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: "Vivamus elementum lorem vitae quam tincidunt"
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                children: "Conexi\xf3n Directa:"
+                                                            }),
+                                                            " Trabajamos directamente con productores de origen."
+                                                        ]
                                                     }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: "Suspendisse accumsan eros eu erat condimentum"
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                children: "Experiencia \xdanica:"
+                                                            }),
+                                                            " Cada bebida est\xe1 hecha para disfrutar al m\xe1ximo."
+                                                        ]
                                                     })
                                                 ]
                                             })
@@ -464,12 +479,12 @@ function About() {
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                 href: "gallery",
-                                                                children: "Cornish cod fillet"
+                                                                children: "Compromiso con el Origen"
                                                             })
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                             className: "title",
-                                                            children: "Us percipit urbanitas referrentur ea."
+                                                            children: "Trabajamos directamente con productores de caf\xe9 de origen \xfanico para garantizar calidad y sostenibilidad."
                                                         })
                                                     ]
                                                 })
@@ -499,12 +514,12 @@ function About() {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                             href: "gallery",
-                                                                            children: "Cornish cod fillet"
+                                                                            children: "Relaci\xf3n con Productores"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         className: "title",
-                                                                        children: "Us percipit urbanitas referrentur ea."
+                                                                        children: "Fomentamos relaciones justas y directas con los caficultores, garantizando un comercio \xe9tico."
                                                                     })
                                                                 ]
                                                             })
@@ -529,12 +544,12 @@ function About() {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                             href: "gallery",
-                                                                            children: "Cornish cod fillet"
+                                                                            children: "Proceso de Tostado"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         className: "title",
-                                                                        children: "Us percipit urbanitas referrentur ea."
+                                                                        children: "Cada grano es tostado con precisi\xf3n para resaltar sus mejores notas."
                                                                     })
                                                                 ]
                                                             })
@@ -567,12 +582,12 @@ function About() {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                             href: "gallery",
-                                                                            children: "Cornish cod fillet"
+                                                                            children: "Pasi\xf3n por la Perfecci\xf3n"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         className: "title",
-                                                                        children: "Us percipit urbanitas referrentur ea."
+                                                                        children: "Nuestra b\xfasqueda de la taza perfecta es constante en todo lo que hacemos."
                                                                     })
                                                                 ]
                                                             })
@@ -597,12 +612,12 @@ function About() {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                             href: "gallery",
-                                                                            children: "Cornish cod fillet"
+                                                                            children: "Autenticidad y Tradici\xf3n"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         className: "title",
-                                                                        children: "Us percipit urbanitas referrentur ea."
+                                                                        children: "Respetamos las tradiciones del caf\xe9 mientras innovamos en cada creaci\xf3n."
                                                                     })
                                                                 ]
                                                             })
@@ -627,12 +642,12 @@ function About() {
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                                                             href: "gallery",
-                                                                            children: "Cornish cod fillet"
+                                                                            children: "Cuidado en Cada Detalle"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                         className: "title",
-                                                                        children: "Us percipit urbanitas referrentur ea."
+                                                                        children: "Desde la selecci\xf3n de los granos hasta la preparaci\xf3n, nos aseguramos de que cada paso sea perfecto.."
                                                                     })
                                                                 ]
                                                             })
@@ -682,10 +697,10 @@ function About() {
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "title",
-                                            children: "Testimonial"
+                                            children: "Testimonios"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                            children: "What People Say"
+                                            children: "Voces de Nuestros Clientes"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "separate"
@@ -714,19 +729,17 @@ function About() {
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 className: "text",
                                                                 children: [
-                                                                    "“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et ",
+                                                                    "“El compromiso de The Coffee Legacy con la calidad es evidente desde el primer sorbo. ",
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                                    " dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ",
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                                    " ullamco.”"
+                                                                    "Es m\xe1s que un caf\xe9, es una experiencia que se nota en cada detalle, desde el origen del grano hasta el ambiente acogedor.”"
                                                                 ]
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 className: "designation",
                                                                 children: [
-                                                                    "Meredith Grant ",
+                                                                    "Carlos Rivera ",
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                                        children: "- Host Mother"
+                                                                        children: "- Cliente Frecuente"
                                                                     })
                                                                 ]
                                                             })

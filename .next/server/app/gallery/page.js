@@ -335,7 +335,7 @@ function Home() {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .ZP, {
             headerStyle: 1,
             footerStyle: 1,
-            breadcrumbTitle: "Gallery",
+            breadcrumbTitle: "Galer\xeda",
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                     className: "gallery-page-section",
@@ -363,12 +363,18 @@ function Home() {
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                     href: "gallery",
-                                                                    children: "Cornish cod fillet"
+                                                                    children: "El Ritual del Caf\xe9"
                                                                 })
                                                             }),
-                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                 className: "title",
-                                                                children: "Us percipit urbanitas referrentur ea."
+                                                                children: [
+                                                                    "Cada taza de caf\xe9 en ",
+                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                        children: "The Coffee Legacy"
+                                                                    }),
+                                                                    " es un ritual, desde la selecci\xf3n de los granos hasta el arte final que llega a tu mesa. "
+                                                                ]
                                                             })
                                                         ]
                                                     })
@@ -397,12 +403,12 @@ function Home() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                         href: "gallery",
-                                                                        children: "Cornish cod fillet"
+                                                                        children: "Caf\xe9 de Especialidad"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "title",
-                                                                    children: "Us percipit urbanitas referrentur ea."
+                                                                    children: "Granos seleccionados de los mejores productores, brindando un sabor inigualable y una calidad superior en cada sorbo."
                                                                 })
                                                             ]
                                                         })
@@ -427,12 +433,12 @@ function Home() {
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                         href: "gallery",
-                                                                        children: "Cornish cod fillet"
+                                                                        children: "Artesan\xeda en Cada Detalle"
                                                                     })
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                     className: "title",
-                                                                    children: "Us percipit urbanitas referrentur ea."
+                                                                    children: "Desde nuestros postres hasta nuestras bebidas, cada creaci\xf3n est\xe1 hecha a mano, con amor y dedicaci\xf3n."
                                                                 })
                                                             ]
                                                         })
@@ -466,12 +472,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Ambiente Acogedor"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "Disfruta de un espacio dise\xf1ado para relajarte, inspirarte y compartir buenos momentos en compa\xf1\xeda de una bebida."
                                                                         })
                                                                     ]
                                                                 })
@@ -499,12 +505,18 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "La Experiencia de Compartir"
                                                                             })
                                                                         }),
-                                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: [
+                                                                                "En ",
+                                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                                                    children: "The Coffee Legacy,"
+                                                                                }),
+                                                                                " cada plato est\xe1 hecho para disfrutarse juntos. Comparte momentos y sabores \xfanicos con los que m\xe1s quieres."
+                                                                            ]
                                                                         })
                                                                     ]
                                                                 })
@@ -532,12 +544,12 @@ function Home() {
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                                                 href: "gallery",
-                                                                                children: "Cornish cod fillet"
+                                                                                children: "Momentos para Recordar"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                                             className: "title",
-                                                                            children: "Us percipit urbanitas referrentur ea."
+                                                                            children: "Nuestras cafeter\xedas no son solo un lugar para disfrutar caf\xe9, sino para crear recuerdos. Aqu\xed, cada encuentro se convierte en una experiencia especial."
                                                                         })
                                                                     ]
                                                                 })
