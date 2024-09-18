@@ -1,4 +1,4 @@
-// File: C:\Users\PC\thecoffelegacy\app\about\page.js
+// File: C:\Users\Administrator\Desktop\Thecoffee\app\about\page.js
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
