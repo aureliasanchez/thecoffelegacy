@@ -42,18 +42,18 @@ export default function Banner() {
                 {/* Slide */}
                 <SwiperSlide>
                 <div className="slide">
-                    <div className="icon-layer-one" style={{ backgroundImage: 'url(assets/images/main-slider/icon-1.png)' }} ></div>
-                    <div className="icon-layer-two" style={{ backgroundImage: 'url(assets/images/main-slider/icon-2.png)' }} ></div>
+                    {/* <div className="icon-layer-one" style={{ backgroundImage: 'url(assets/images/main-slider/icon-1.png)' }} ></div>
+                    <div className="icon-layer-two" style={{ backgroundImage: 'url(assets/images/main-slider/icon-2.png)' }} ></div> */}
                     <div className="auto-container">
                         <div className="row clearfix">
                         
                             {/* Content Column */}
                             <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column">
-                                    <h1><span className="first-letter">Heathly</span><span className="second-letter">Smoothie</span></h1>
-                                    <div className="text">Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    <h1><span className="first-letter">Café</span><span className="second-letter">Perfecto</span></h1>
+                                    <div className="text">En <b>The Coffee Legacy</b>, cada taza refleja nuestra pasión por el café de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia única.</div>
                                     <div className="btns-box">
-                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Buy Now</Link>
+                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Compra Ahora</Link>
                                     </div>
                                     <div className="icons-box">
                                         <img src="assets/images/main-slider/icons.png" alt="" />
@@ -87,10 +87,10 @@ export default function Banner() {
                             {/* Content Column */}
                             <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column">
-                                    <h1><span className="first-letter">Heathly</span><span className="second-letter">Smoothie</span></h1>
-                                    <div className="text">Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    <h1><span className="first-letter">Café</span><span className="second-letter">Perfecto</span></h1>
+                                    <div className="text">En <b>The Coffee Legacy</b>, cada taza refleja nuestra pasión por el café de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia única.</div>
                                     <div className="btns-box">
-                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Buy Now</Link>
+                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Compra Ahora</Link>
                                     </div>
                                     <div className="icons-box">
                                         <img src="assets/images/main-slider/icons.png" alt="" />
@@ -123,10 +123,10 @@ export default function Banner() {
                             {/* Content Column */}
                             <div className="content-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column">
-                                    <h1><span className="first-letter">Heathly</span><span className="second-letter">Smoothie</span></h1>
-                                    <div className="text">Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    <h1><span className="first-letter">Café</span><span className="second-letter">Perfecto</span></h1>
+                                    <div className="text">En <b>The Coffee Legacy</b>, cada taza refleja nuestra pasión por el café de especialidad, cuidadosamente seleccionado y tostado para brindarte una experiencia única.</div>
                                     <div className="btns-box">
-                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Buy Now</Link>
+                                        <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Compra Ahora</Link>
                                     </div>
                                     <div className="icons-box">
                                         <img src="assets/images/main-slider/icons.png" alt="" />

@@ -19,11 +19,11 @@ export default function Footer1() {
 							{/*Footer Column*/}
                             <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div className="footer-widget contact-widget">
-									<h6>Contact Us</h6>
-									<div className="text">6Fifth Avenue 5501, Broadway, New York Morris Street London 1234</div>
+									<h6>Contáctanos</h6>
+									<div className="text">En <b>The Coffee Legacy</b>, nos encanta escuchar a nuestros clientes. Ya sea que nos visites en alguna de nuestras sucursales o nos escribas, estamos aquí para atenderte.</div>
 									<ul className="contact-list">
-										<li><span className="icon fa fa-send"></span>Your mail @ gmail.com</li>
-										<li><span className="icon fa fa-phone"></span><Link href="tel:+123-4567-89000">(123) 4567 89000</Link></li>
+										<li><span className="icon fa fa-send"></span>contacto@thecoffeelegacy.com</li>
+										<li><span className="icon fa fa-phone"></span><Link href="tel:+123-4567-89000">(+52) 771 123 4567</Link></li>
 									</ul>
 								</div>
 							</div>
@@ -31,13 +31,14 @@ export default function Footer1() {
 							{/*Footer Column*/}
                             <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div className="footer-widget links-widget">
-									<h6>Useful Links</h6>
+									<h6>Explora Nuestro Sitio</h6>
 									<ul className="footer-list">
-										<li><Link href="#">Home</Link></li>
-										<li><Link href="#">About us</Link></li>
-										<li><Link href="#">Blogs</Link></li>
-										<li><Link href="#">Terms Of Service</Link></li>
-										<li><Link href="#">Privacy Policy</Link></li>
+										<li><Link href="home">Home</Link></li>
+										<li><Link href="about">About</Link></li>
+										<li><Link href="menu">Menú</Link></li>
+										<li><Link href="gallery">Galería</Link></li>
+										<li><Link href="blog-classic">Blog</Link></li>
+										<li><Link href="contact">Contacto</Link></li>
 									</ul>
 								</div>
 							</div>
@@ -52,12 +53,12 @@ export default function Footer1() {
 							{/*Footer Column*/}
                             <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <div className="footer-widget social-widget">
-									<h6>Follow Us Now</h6>
+									<h6>Conecta con Nosotros</h6>
 									<ul className="social-list">
-										<li><Link href="#"><span className="icon fa fa-facebook"></span>facebook</Link></li>
-										<li><Link href="#"><span className="icon fa fa-twitter"></span>twitter</Link></li>
-										<li><Link href="#"><span className="icon fa fa-instagram"></span>instagram</Link></li>
-										<li><Link href="#"><span className="icon fa fa-dribbble"></span>dribbble</Link></li>
+										<li><Link href="https://www.facebook.com/thecoffeelegacy.hgo/"><span className="icon fa fa-facebook"></span>Facebook</Link></li>
+										{/* <li><Link href="#"><span className="icon fa fa-twitter"></span>twitter</Link></li> */}
+										<li><Link href="https://www.instagram.com/thecoffeelegacy/"><span className="icon fa fa-instagram"></span>Instagram</Link></li>
+										{/* <li><Link href="#"><span className="icon fa fa-dribbble"></span>dribbble</Link></li> */}
 									</ul>
 								</div>
 							</div>
@@ -83,7 +84,7 @@ export default function Footer1() {
 				</div>
 			</div>
 			<div className="footer-bottom">
-				<div className="copyright">&copy; 2024 foodily All Rights Reserved.</div>
+				<div className="copyright">&copy; 2024 Todos Los Derechos Reservados.</div>
 			</div>
 		</div>
 	</footer>

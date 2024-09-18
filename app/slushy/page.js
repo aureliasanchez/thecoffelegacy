@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Slushy">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Vinos & Más">
                 <div>
                     {/* Milkshake Section */}
                     <section className="milkshake-section">
@@ -23,8 +23,7 @@ export default function Home() {
                                 <div className="lower-content">
                                     <div className="section-text">yummy</div>
                                     <div className="text">
-                                        <p>A slushy, sometimes spelt as slushie and slushie, also commonly referred to as a slush, frozen beverage, or frozen drink, is a type of beverage made of flavored ice and a drink, commonly soda, similar to granitas. A slushy can either be carbonated or non-carbonated.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                        <p>Relájate y disfruta de nuestra exclusiva selección de cervezas artesanales, vinos de alta calidad y cócteles creativos. Ya sea para acompañar tu comida o simplemente disfrutar de una bebida refrescante, tenemos la opción perfecta para cada ocasión.</p>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +39,7 @@ export default function Home() {
                         <div className="auto-container">
                             {/* Sec Title */}
                             <div className="sec-title centered">
-                                <h2>Slushy <span>Variation</span></h2>
+                                <h2>Vinos <span>& Más</span></h2>
                                 <div className="separate"></div>
                             </div>
                             <div className="row clearfix">
@@ -52,47 +51,113 @@ export default function Home() {
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-27.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Strawberry</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                               <h4>Vinos de Francia</h4>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">Copa / Botella </span><br/>
+                                                    <span className="price">5 oz / 750 ml </span>
+                                                </div><br/>
+
+                                                <h6>Chatean Montgaillard</h6>
+                                                <div className="title">Sauvignon 2018</div>
+                                                <div className="price-box">
+                                                    <span className="price">$80 / $395</span><br/>
+                                                </div><br/>
+
+                                                <h6>Les Taurelles</h6>
+                                                <div className="title">Syrah y Merlot 2016</div>
+                                                <div className="price-box">
+                                                    <span className="price">$75 / $375</span><br/>
+                                                </div><br/>
+
+                                                <h6>Mas del Tourelles</h6>
+                                                <div className="title">Uva Merlot 2016</div>
+                                                <div className="price-box">
+                                                    <span className="price">$95 / $495</span><br/>
+                                                </div><br/>
+
+                                                <h6>Cuveede Galets</h6>
+                                                <div className="title">Uva Grenache, Carignan, Syrah 2018</div>
+                                                <div className="price-box">
+                                                    <span className="price">$110 / $550</span><br/>
+                                                </div><br/>
                                             </div>
                                         </div>
                                         
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-28.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Sour Apple</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                <h4>Cerveza Artesanal</h4>
+                                                <div className="title">Pinta con 464 ml</div>
+                                                <h6>Cerveceria Pachuca</h6>
+                                                <h6>Brown Porter</h6>
+                                                <div className="title">Café y Cacao</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">$85</span>
+                                                </div><br/><br/>
+
+                                                <h6>Cerveceria Reyna</h6>
+                                                <h6>Reyna Negra Stout</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>IPA "Macho"</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/><br/>
+
+                                                <h6>Cerveceria Lola</h6>
+                                                <h6>White Stout "Paxarete"</h6>
+                                                <div className="title">Cacao y Café</div>
+                                                <div className="price-box">
+                                                    <span className="price">$75</span>
+                                                </div><br/>
                                             </div>
                                         </div>
                                         
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-29.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Bubblegum</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                <h4>Cerveza Artesanal En Botella</h4>
+                                                <h6>Colimita</h6>
+                                                <div className="title">Lager</div>
+                                                <h6>Ticus</h6>
+                                                <div className="title">Porter</div>
+                                                <h6>Piedra Lisa</h6>
+                                                <div className="title">IPA</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">$65</span>
+                                                </div><br/><br/>
+
+                                                <h6>Modelo Especial o Negra Modelo</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$42</span>
+                                                </div><br/>
+
+                                                <h6>Corona</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$42</span>
+                                                </div><br/><br/>
+
+                                                <h6>Refrescos Coca, Sprite, Agua Mineral</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$20</span>
+                                                </div><br/>
+
+                                                <h6>Agua Perrier</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$48</span>
+                                                </div><br/>
+
+                                                <h6>S. Pellegrino</h6>
+                                                <div className="price-box">
+                                                    <span className="price">$38</span>
+                                                </div><br/>
                                             </div>
                                         </div>
                                         
                                         {/* Menu Block */}
-                                        <div className="menu-block">
+                                        {/* <div className="menu-block">
                                             <div className="inner-box">
                                                 <div className="menu-image">
                                                     <Link href="menu"><img src="assets/images/resource/menu-30.jpg" alt="" /></Link>
@@ -103,7 +168,7 @@ export default function Home() {
                                                     <span className="price">$15</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         
                                     </div>
                                 </div>
@@ -114,56 +179,110 @@ export default function Home() {
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-31.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Grape</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                <h4>Cócteles </h4>
+                                                <h6>Margarita</h6>
+                                                <div className="title">1 oz 1/2 de Tequila</div>
+                                                <div className="title">*Mango Chamoi *Frutos Rojos *Kiwi *Maracuya *Chai</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>Mojito</h6>
+                                                <div className="title">1 oz 1/2 de Ron</div>
+                                                <div className="title">Hierba Buena, Limón y Jarabe</div>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>Olé Chai</h6>
+                                                <div className="title">1 oz de Mezcal</div>
+                                                <div className="title">Shekeado con Chai de la Casa</div>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>Fresón</h6>
+                                                <div className="title">1 oz 1/2 de Mezcal</div>
+                                                <div className="title">Mezclado con Frutos Rojos</div>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>Maracuya</h6>
+                                                <div className="title">1 oz 1/2 de Mezcal</div>
+                                                <div className="title">Mezclado con Maracuya y Mineral</div>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
                                             </div>
                                         </div>
                                         
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-32.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Cherry</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                <h4>Tragos</h4>
+                                                <h6>Tequila 1519</h6>
+                                                <div className="title">2 oz *Blanco *Reposado *Anejo</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">$65</span>
+                                                </div><br/>
+
+                                                <h6>Wisky Red Label</h6>
+                                                <div className="title">2 oz de Wiskie</div>
+                                                <div className="price-box">
+                                                    <span className="price">$69</span>
+                                                </div><br/>
+
+                                                <h6>Ron Torres 10</h6>
+                                                <div className="title">2 oz de Ron</div>
+                                                <div className="price-box">
+                                                    <span className="price">$60</span>
+                                                </div><br/>
+
+                                                <h6>Mezcal</h6>
+                                                <div className="title">2 oz</div>
+                                                <div className="price-box">
+                                                    <span className="price">$75</span>
+                                                </div><br/>
                                             </div>
                                         </div>
                                         
                                         {/* Menu Block */}
                                         <div className="menu-block">
                                             <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-33.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Sour Cherry</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                <h4>Promociones</h4>
+                                                <h6>Hamburguesa</h6>
+                                                <div className="title">Chiken Cronch + Pinta de Cerveza Artesanal Reyna</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        {/* Menu Block */}
-                                        <div className="menu-block">
-                                            <div className="inner-box">
-                                                <div className="menu-image">
-                                                    <Link href="menu"><img src="assets/images/resource/menu-34.jpg" alt="" /></Link>
-                                                </div>
-                                                <h6><Link href="menu">Lemon and Lime</Link></h6>
-                                                <div className="title">Crispy black garlic</div>
+                                                    <span className="price">$135</span>
+                                                </div><br/>
+
+                                                <h6>Papas Chicago</h6>
+                                                <div className="title">+ 2 Pintas Cerveza Artesanal Reyna</div>
                                                 <div className="price-box">
-                                                    <span className="price">$15</span>
-                                                </div>
+                                                    <span className="price">$180</span>
+                                                </div><br/>
+
+                                                <h6>Pizza Margarita</h6>
+                                                <div className="title">+ 2 Pintas Cerveza Reyna</div>
+                                                <div className="price-box">
+                                                    <span className="price">$240</span>
+                                                </div><br/>
+
+                                                <h6>Nachos</h6>
+                                                <div className="title">+ 2 Pintas Cerveza Artesanal Reyna</div>
+                                                <div className="price-box">
+                                                    <span className="price">$180</span>
+                                                </div><br/>
+
+                                                <h6>Pizza + Fetussini</h6>
+                                                <div className="title">De Pollo + 1 Botella de Tinto</div>
+                                                <div className="price-box">
+                                                    <span className="price">$490</span>
+                                                </div><br/><br/><br/>
+
+                                                <h6>Nota:</h6>
+                                                <div className="title">Las promociones aplican de Lunes a Jueves de 14:00 hrs a 23:00 hrs</div>
                                             </div>
                                         </div>
                                     </div>

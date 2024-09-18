@@ -12,13 +12,13 @@ export default function Fluid() {
                         <div className="inner-column">
                             
                             <div className="sec-title">
-                                <h2>Upcoming Our <br/> Beverage</h2>
+                                <h2>Experiencia Legacy</h2>
                                 <div className="separate"></div>
-                                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div className="text">En The Coffee Legacy, cada visita es un viaje sensorial. Desde el aroma de los granos recién tostados hasta la perfección en cada taza, nos esforzamos por ofrecer una experiencia memorable que conecta a nuestros clientes con el verdadero arte del café de especialidad.</div>
                             </div>
                             
                             <div className="button-box">
-                                <Link href="menu" className="theme-btn btn-style-two clearfix"><span className="icon"></span>All Product</Link>
+                                <Link href="menu" className="theme-btn btn-style-one clearfix"><span className="icon"></span>Descubre Más</Link>
                             </div>
                         </div>
                     </div>

@@ -10,8 +10,8 @@ export default function Beverage() {
                 <div className="auto-container">
                     {/* Sec Title */}
                     <div className="sec-title centered">
-                        <div className="title">Best for You</div>
-                        <h2>Our Beverage</h2>
+                        <div className="title">Sabores que Inspiran</div>
+                        <h2>Sabores únicos</h2>
                         <div className="separate"></div>
                     </div>
                     <div className="row clearfix">
@@ -23,8 +23,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-1.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Milkshake</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Espresso Tradicional</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -36,8 +36,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-2.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Frappe</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake"> Cappuccino Clásico</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -49,8 +49,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-3.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Boba Drinks</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Cold Brew Refrescante</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -62,8 +62,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-4.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Mojito</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Latte con Vainilla Naturalo</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -75,8 +75,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-5.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Slushy</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Mocha con Chocolate Oscuro</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -88,8 +88,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-6.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">Hot Chocolate</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Americano Intenso</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -101,8 +101,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-7.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">smoothie</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Frappe de Caramelo</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -114,8 +114,8 @@ export default function Beverage() {
                                     <Link href="milkshake"><img src="assets/images/resource/beverage-8.jpg" alt="" /></Link>
                                 </div>
                                 <div className="lower-content">
-                                    <h6><Link href="milkshake">coffee</Link></h6>
-                                    <div className="products">3 products</div>
+                                    <h6><Link href="milkshake">Té Chai con Especias</Link></h6>
+                                    {/* <div className="products">3 products</div> */}
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export default function Beverage() {
                     
                     {/* Button Box */}
                     <div className="button-box text-center">
-                        <Link href="menu" className="theme-btn btn-style-two clearfix"><span className="icon"></span>View All Products</Link>
+                        <Link href="menu" className="theme-btn btn-style-two clearfix"><span className="icon"></span>Ver Menú</Link>
                     </div>
                     
                 </div>

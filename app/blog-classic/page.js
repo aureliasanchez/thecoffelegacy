@@ -39,7 +39,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog List With Right Sidebar">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog">
             {/* Sidebar Page Container */}
             <div className="sidebar-page-container">
                 <div className="section-text">yummy</div>
@@ -68,14 +68,14 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="lower-content">
-                                            <div className="category">smoothie</div>
-                                            <h3><Link href="news-detail">Broad bean and goats’ cheese bruschetta</Link></h3>
-                                            <ul className="post-info">
+                                            <div className="category">Blog</div>
+                                            <h3><Link href="news-detail">El Origen de Nuestro Café</Link></h3>
+                                            {/* <ul className="post-info">
                                                 <li>May 21, 2021</li>
                                                 <li>2 Comments</li>
                                                 <li><Link href="news-detail">Share</Link></li>
-                                            </ul>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan...</div>
+                                            </ul> */}
+                                            <div className="text">Desde los campos hasta tu taza, trabajamos de la mano con pequeños productores de café de origen único, garantizando una experiencia auténtica y llena de sabor.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -84,14 +84,14 @@ export default function Home() {
                                 <div className="news-block-three">
                                     <div className="inner-box">
                                         <div className="lower-content">
-                                            <div className="category">smoothie</div>
-                                            <h3><Link href="news-detail">Breakfast At Hotel</Link></h3>
-                                            <ul className="post-info">
+                                            <div className="category">Blog</div>
+                                            <h3><Link href="news-detail">El Arte del Latte</Link></h3>
+                                            {/* <ul className="post-info">
                                                 <li>May 21, 2021</li>
                                                 <li>2 Comments</li>
                                                 <li><Link href="news-detail">Share</Link></li>
-                                            </ul>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan...</div>
+                                            </ul> */}
+                                            <div className="text">Cada taza de latte en The Coffee Legacy es una obra de arte. Con dedicación y técnica, nuestros baristas crean diseños únicos que elevan cada sorbo.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -111,14 +111,14 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="lower-content">
-                                            <div className="category">smoothie</div>
-                                            <h3><Link href="news-detail">Drinking Healthy And Fruity </Link></h3>
-                                            <ul className="post-info">
+                                            <div className="category">Blog</div>
+                                            <h3><Link href="news-detail">Postres para Consentirte </Link></h3>
+                                            {/* <ul className="post-info">
                                                 <li>May 21, 2021</li>
                                                 <li>2 Comments</li>
                                                 <li><Link href="news-detail">Share</Link></li>
-                                            </ul>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan...</div>
+                                            </ul> */}
+                                            <div className="text">Desde brownies hasta crepas rellenas, nuestros postres son el acompañamiento perfecto para tu café, hechos con los mejores ingredientes para satisfacer tu antojo.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -131,14 +131,14 @@ export default function Home() {
                                             <a onClick={() => setOpen(true)} className="lightbox-image video-overlay-box"><span className="flaticon-play-arrow"><i className="ripple"></i></span></a>
                                         </div>
                                         <div className="lower-content">
-                                            <div className="category">smoothie</div>
-                                            <h3><Link href="news-detail">Drinking Healthy And Fruity </Link></h3>
-                                            <ul className="post-info">
+                                            <div className="category">Blog</div>
+                                            <h3><Link href="news-detail">Café para Llevar</Link></h3>
+                                            {/* <ul className="post-info">
                                                 <li>May 21, 2021</li>
                                                 <li>2 Comments</li>
                                                 <li><Link href="news-detail">Share</Link></li>
-                                            </ul>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan...</div>
+                                            </ul> */}
+                                            <div className="text">Tu rutina no tiene que sacrificar el sabor. Llévate una taza de café de especialidad para disfrutarlo mientras te mueves por la ciudad.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -149,10 +149,10 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="image">
                                             <img src="assets/images/resource/news-19.jpg" alt="" />
-                                            <div className="content">
+                                            {/* <div className="content">
                                                 <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                                                 <div className="designation">Michael John</div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -184,25 +184,25 @@ export default function Home() {
                                             </SwiperSlide>
                                         </Swiper>
                                         <div className="lower-content">
-                                            <div className="category">smoothie</div>
-                                            <h3><Link href="news-detail">Pink Snack Ready To Go </Link></h3>
-                                            <ul className="post-info">
+                                            <div className="category">Blog</div>
+                                            <h3><Link href="news-detail">Explora Nuevos Sabores</Link></h3>
+                                            {/* <ul className="post-info">
                                                 <li>May 21, 2021</li>
                                                 <li>2 Comments</li>
                                                 <li><Link href="news-detail">Share</Link></li>
-                                            </ul>
-                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan...</div>
+                                            </ul> */}
+                                            <div className="text">Nuestra carta de bebidas siempre tiene algo nuevo que ofrecer. Descubre sabores únicos y creaciones especiales diseñadas para sorprender a tu paladar.</div>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 {/* Styled Pagination */}
-                                <ul className="styled-pagination text-center">
+                                {/* <ul className="styled-pagination text-center">
                                     <li><Link href="#">01</Link></li>
                                     <li><Link href="#" className="active">02</Link></li>
                                     <li><Link href="#">03</Link></li>
                                     <li className="next"><Link href="#"><span className="fa fa-angle-right"></span></Link></li>
-                                </ul>                
+                                </ul>                 */}
                                 {/* End Styled Pagination */}
                                 
                             </div>
@@ -229,9 +229,9 @@ export default function Home() {
                                 <div className="sidebar-widget about-widget">
                                     <div className="widget-content">
                                         <div className="sidebar-title">
-                                            <h6>About us</h6>
+                                            <h6>Sobre Nosotros</h6>
                                         </div>
-                                        <div className="text">Pellentesque semper ut sem non aliquet. Nullam tincidunt vestibulum condimentum. Duis at mollis orci. Nulla facilisi. Pellentesque in mi ut diam consequat sollicitudin</div>
+                                        <div className="text">En The Coffee Legacy, nos dedicamos a ofrecer una experiencia única a través del café de especialidad. Cada taza representa nuestra pasión por el sabor, la calidad y la conexión con nuestros productores. Nuestra misión es brindarte momentos inolvidables en cada visita.</div>
                                     </div>
                                 </div>
                                 
@@ -239,16 +239,16 @@ export default function Home() {
                                 <div className="sidebar-widget category-widget">
                                     <div className="widget-content">
                                         <div className="sidebar-title">
-                                            <h6>Product categories</h6>
+                                            <h6>Categorías de Productos</h6>
                                         </div>
                                         <ul className="cat-list">
-                                            <li><Link href="#">Colorful</Link></li>
-                                            <li><Link href="#">Fruit Bowl</Link></li>
-                                            <li><Link href="#">Healthy</Link></li>
-                                            <li><Link href="#">Ice Cream</Link></li>
-                                            <li><Link href="#">Mixed</Link></li>
-                                            <li><Link href="#">Shakes</Link></li>
-                                            <li><Link href="#">Smoothie</Link></li>
+                                            <li><Link href="#">Café de Especialidad</Link></li>
+                                            <li><Link href="#">Bebidas Refrescantes</Link></li>
+                                            <li><Link href="#">Postres y Snacks</Link></li>
+                                            <li><Link href="#">Desayunos</Link></li>
+                                            <li><Link href="#">Hamburguesas y Pizzas</Link></li>
+                                            <li><Link href="#">Crepas</Link></li>
+                                            <li><Link href="#">Cervezas, Vinos y Cócteles</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -257,25 +257,25 @@ export default function Home() {
                                 <div className="sidebar-widget popular-posts">
                                     <div className="widget-content">
                                         <div className="sidebar-title">
-                                            <h6>Products</h6>
+                                            <h6>Productos</h6>
                                         </div>
 
                                         <article className="post">
                                             <figure className="post-thumb"><img src="assets/images/resource/post-thumb-1.jpg" alt=""/><Link href="news-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                            <div className="text"><Link href="news-detail">Hippie Chick</Link></div>
-                                            <div className="post-info">$120</div>
+                                            <div className="text"><Link href="news-detail">Flat White</Link></div>
+                                            <div className="post-info">$55</div>
                                         </article>
 
                                         <article className="post">
                                             <figure className="post-thumb"><img src="assets/images/resource/post-thumb-2.jpg" alt=""/><Link href="news-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                            <div className="text"><Link href="news-detail">Hippie Chick</Link></div>
-                                            <div className="post-info">$120</div>
+                                            <div className="text"><Link href="news-detail">Brownie de Chocolate</Link></div>
+                                            <div className="post-info">$45</div>
                                         </article>
                                         
                                         <article className="post">
                                             <figure className="post-thumb"><img src="assets/images/resource/post-thumb-3.jpg" alt=""/><Link href="news-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                            <div className="text"><Link href="news-detail">Hippie Chick</Link></div>
-                                            <div className="post-info">$120</div>
+                                            <div className="text"><Link href="news-detail">Frappé de Caramelo</Link></div>
+                                            <div className="post-info">$65</div>
                                         </article>
                                         
                                     </div>
@@ -285,16 +285,16 @@ export default function Home() {
                                 <div className="sidebar-widget tags-posts">
                                     <div className="widget-content">
                                         <div className="sidebar-title">
-                                            <h6>Product tags</h6>
+                                            <h6>Etiquetas Populares</h6>
                                         </div>
                                         <ul className="tag-list clearfix">
-                                            <li><Link href="#">Colorful</Link></li>
+                                            <li><Link href="#">Café</Link></li>
                                             <li><Link href="#">Fruit Bowl</Link></li>
-                                            <li><Link href="#">Healthy</Link></li>
-                                            <li><Link href="#">Ice Cream</Link></li>
-                                            <li><Link href="#">Mixed</Link></li>
-                                            <li><Link href="#">Shakes</Link></li>
-                                            <li><Link href="#">Smoothie</Link></li>
+                                            <li><Link href="#">Frappé</Link></li>
+                                            <li><Link href="#">Postres</Link></li>
+                                            <li><Link href="#">Crepas</Link></li>
+                                            <li><Link href="#">Bebidas Refrescantes</Link></li>
+                                            <li><Link href="#">Especialidades</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -302,13 +302,13 @@ export default function Home() {
                                 {/* Social Widget */}
                                 <div className="sidebar-widget social-widget">
                                     <div className="sidebar-title">
-                                        <h6>Share</h6>
+                                        <h6>Síguenos</h6>
                                     </div>
                                     <ul className="social-list">
-                                        <li><Link href="#"><span className="icon fa fa-facebook"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-twitter"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
-                                        <li><Link href="#"><span className="icon fa fa-dribbble"></span></Link></li>
+                                    <li><Link href="https://www.facebook.com/thecoffeelegacy.hgo/"><span className="icon fa fa-facebook"></span></Link></li>
+                                    <li><Link href="https://www.instagram.com/thecoffeelegacy/"><span className="icon fa fa-instagram"></span></Link></li>
+                                        {/* <li><Link href="#"><span className="icon fa fa-instagram"></span></Link></li>
+                                        <li><Link href="#"><span className="icon fa fa-dribbble"></span></Link></li> */}
                                     </ul>
                                 </div>
                                 

@@ -14,24 +14,24 @@ export default function Menu() {
                 <li className="dropdown">
                     <Link href="#">About</Link>
                     <ul>
-                        <li><Link href="about">About</Link></li>
+                        <li><Link href="about">Sobre Nosotros</Link></li>
                         {/* <li><Link href="team">Team</Link></li> */}
-                        <li><Link href="restaurant">Restaurant</Link></li>
+                        <li><Link href="restaurant">Sucursales</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="#">Menu</Link>
+                    <Link href="#">Menú</Link>
                     <ul>
-                        <li><Link href="menu">Menu Principal</Link></li>
-                        <li><Link href="milkshake">Milk Shake</Link></li>
-                        <li><Link href="frappe">Frappe</Link></li>
-                        <li><Link href="boba-tea">Boba Tea</Link></li>
-                        <li><Link href="slushy">Slushy</Link></li>
+                        <li><Link href="menu">Menú Principal</Link></li>
+                        <li><Link href="milkshake">Bebidas</Link></li>
+                        <li><Link href="frappe">Desayunos</Link></li>
+                        <li><Link href="boba-tea">Delicias a la Carta</Link></li>
+                        <li><Link href="slushy">Vinos & Más</Link></li>
                         
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="gallery">Gallery</Link>
+                    <Link href="gallery">Galería</Link>
                     {/* <ul>
                         <li><Link href="gallery">Gallery</Link></li>
                         <li><Link href="gallery-2">Gallery 02</Link></li>                        
@@ -46,7 +46,7 @@ export default function Menu() {
                     </ul> */}
                 </li>
                 <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="contact">Contacto</Link>
                 </li>
             </ul>
         </>

@@ -1,9 +1,13 @@
 {
+<<<<<<< HEAD
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/_not-found": "app/_not-found.js",
   "/about/page": "app/about/page.js",
   "/blog-classic/page": "app/blog-classic/page.js",
+=======
+  "/frappe/page": "app/frappe/page.js",
+>>>>>>> 511671b9c3261f3fb1d2ae68b2c48f4c352647b5
   "/boba-tea/page": "app/boba-tea/page.js",
   "/blog-details/page": "app/blog-details/page.js",
   "/contact/page": "app/contact/page.js",
@@ -17,6 +21,12 @@
   "/index-4/page": "app/index-4/page.js",
   "/milkshake/page": "app/milkshake/page.js",
   "/slushy/page": "app/slushy/page.js",
+<<<<<<< HEAD
   "/restaurant/page": "app/restaurant/page.js",
   "/team/page": "app/team/page.js"
+=======
+  "/menu/page": "app/menu/page.js",
+  "/blog-classic/page": "app/blog-classic/page.js",
+  "/contact/page": "app/contact/page.js"
+>>>>>>> 511671b9c3261f3fb1d2ae68b2c48f4c352647b5
 }

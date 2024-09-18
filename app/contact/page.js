@@ -5,16 +5,16 @@ export default function Home() {
 
     return (
         <>
-    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact">
+    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contáctanos">
         {/* Contact Page Section */}
         <section className="contact-page-section">
             <div className="auto-container">
                 {/* Sec Title */}
                 <div className="sec-title centered">
-                    <div className="title">Get in touch</div>
-                    <h2>Hi <span className="theme_color">Say</span></h2>
+                    <div className="title">Estamos aquí para escucharte</div>
+                    <h2>¡Conecta con <span className="theme_color">Nosotros!</span></h2>
                     <div className="separate"></div>
-                    <div className="text">Us percipit urbanitas referrentur ea. Mei at numquam molestiae intellegam. Ansed dictas <br/> accumsan. Nam sint atqui voluptatibus an, pro ne malis semper perpetua. Nam sint <br/> atqui voluptatibus an, pro ne malis semper perpetua.</div>
+                    <div className="text">En The Coffee Legacy, valoramos cada opinión y nos encanta saber de ti.<br/> Si tienes alguna pregunta, sugerencia o simplemente quieres saludarnos, no dudes en escribirnos.<br/> Estaremos encantados de responderte lo más pronto posible.</div>
                 </div>
                 <div className="row clearfix">
                 
@@ -22,8 +22,7 @@ export default function Home() {
                     <div className="form-column col-lg-8 col-md-12 col-sm-12">
                         <div className="inner-column">
                             <div className="title-box">
-                                <h4>Drop us a line</h4>
-                                <div className="text">Your email address will not be published. Required fields are marked *</div>
+                                <h4>Formulario de Contacto</h4>
                             </div>
                             
                             {/* Contact Form */}
@@ -32,19 +31,19 @@ export default function Home() {
                                     <div className="row clearfix">
                                     
                                         <div className="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <textarea name="message" placeholder="Your Comment"></textarea>
+                                            <textarea name="message" placeholder="¿Cómo podemos ayudarte?"></textarea>
                                         </div>
                                     
                                         <div className="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <input type="text" name="username" placeholder="Your Name"/>
+                                            <input type="text" name="username" placeholder="Escribe tu nombre completo"/>
                                         </div>
                                         
                                         <div className="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <input type="email" name="email" placeholder="Your Email"/>
+                                            <input type="email" name="email" placeholder="Introduce tu dirección de correo electrónico"/>
                                         </div>
                                         
                                         <div className="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <button type="submit" className="theme-btn btn-style-four clearfix"><span className="icon flaticon-arrow-pointing-to-right"></span>Send</button>
+                                            <button type="submit" className="theme-btn btn-style-four clearfix"><span className="icon flaticon-arrow-pointing-to-right"></span>Enviar Mensaje</button>
                                         </div>
                                         
                                     </div>
@@ -60,12 +59,16 @@ export default function Home() {
                         <div className="inner-column">
                             <ul className="info-list">
                                 <li>
-                                    <strong>Berlin</strong>
-                                    52 Corso Magenta <br/>20123 Milano, Italy <br/> +123 -45678-900 <br/>yourspa@info.com
+                                    <strong>Visítanos</strong>
+                                    Estamos ubicados en el corazón de varios puntos clave de la ciudad.<br/><b>Sucursales:</b><br/>
+                                    Huasca de Ocampo:<br/>
+                                    Pachuca Centro:<br/>
+                                    Mineral del Monte:<br/>
+                                    Carretera México-Pachuca:<br/>
                                 </li>
                                 <li>
-                                    <strong>Opening Hours</strong>
-                                    Monday – Friday 09:00 – 23:00 <br/> Saturday 09:00 – 22:00
+                                    <strong>Nuestros Horarios:</strong>
+                                    Lunes – Viernes 08 AM – 08 PM <br/> Fines de Semana 09 AM – 10 PM
                                 </li>
                             </ul>
                         </div>
@@ -83,7 +86,7 @@ export default function Home() {
                 <div className="map-boxed">
                     {/*Map Outer*/}
                     <div className="map-outer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12506.748774592113!2d-98.7326587!3d20.1269024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d109daa07cdc29%3A0xa2d44d59b8a7142!2sThe%20Coffee%20Legacy%20Reloj!5e1!3m2!1sen!2smx!4v1726177272471!5m2!1sen!2smx" ></iframe>
                     </div>
                 </div>
             </div>

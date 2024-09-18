@@ -1,5 +1,6 @@
 {
   "pages": {
+<<<<<<< HEAD
     "/page": [
       "static/chunks/webpack-e70277fa401deb67.js",
       "static/chunks/fd9d1056-9200b628bfbdc6da.js",
@@ -17,6 +18,8 @@
       "static/css/928eb0166bc0551b.css",
       "static/chunks/app/layout-684a074a6a27424d.js"
     ],
+=======
+>>>>>>> 511671b9c3261f3fb1d2ae68b2c48f4c352647b5
     "/loading": [
       "static/chunks/webpack-e70277fa401deb67.js",
       "static/chunks/fd9d1056-9200b628bfbdc6da.js",
@@ -33,6 +36,7 @@
       "static/chunks/647-9ba3898728a40794.js",
       "static/chunks/app/not-found-d2b6c6b6f4a102db.js"
     ],
+<<<<<<< HEAD
     "/about/page": [
       "static/chunks/webpack-e70277fa401deb67.js",
       "static/chunks/fd9d1056-9200b628bfbdc6da.js",
@@ -189,6 +193,53 @@
       "static/chunks/25-68bafa1c3f4af934.js",
       "static/chunks/647-9ba3898728a40794.js",
       "static/chunks/app/team/page-d4da22c453ac211e.js"
+=======
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/menu/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/menu/page.js"
+    ],
+    "/milkshake/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/milkshake/page.js"
+    ],
+    "/gallery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/gallery/page.js"
+    ],
+    "/restaurant/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restaurant/page.js"
+    ],
+    "/frappe/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/frappe/page.js"
+    ],
+    "/boba-tea/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/boba-tea/page.js"
+    ],
+    "/slushy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/slushy/page.js"
+    ],
+    "/blog-classic/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blog-classic/page.js"
+>>>>>>> 511671b9c3261f3fb1d2ae68b2c48f4c352647b5
     ]
   }
 }
